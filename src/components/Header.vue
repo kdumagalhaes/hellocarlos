@@ -12,20 +12,28 @@
         <li><a href="#">music</a></li>
         <li><a href="#">contact</a></li>
       </ul>
+      <BasicButton text="Resumé" />
     </nav>
   </header>
 </template>
 
 <script>
+// components
+import BasicButton from "./BasicButton.vue";
 export default {
   name: "Header",
+  components: {
+    BasicButton,
+  },
 };
 </script>
 
 <style lang="scss" scoped>
 .nav-list,
+.top-navigation,
 .header {
   display: flex;
+  align-items: center;
 }
 
 .nav-list {
@@ -51,7 +59,6 @@ export default {
   padding: $safe-area-padding;
   height: 80px;
   backdrop-filter: blur(10px);
-  align-items: center;
   justify-content: space-between;
 }
 .logo {
