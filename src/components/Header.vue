@@ -13,7 +13,7 @@
           <li><a href="#about">about</a></li>
           <li><a href="#experience">experience</a></li>
           <li><a href="#developer">developer</a></li>
-          <li><a href="#music">music</a></li>
+          <li><a href="#music">musician</a></li>
           <li><a href="#contact">contact</a></li>
         </ul>
         <BasicButton text="Resumé" />
