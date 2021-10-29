@@ -9,14 +9,14 @@
 
 input,
 button {
-    font-family: 'Inter', sans-serif;
+    font-family: $sans-serif;
 }
 
 body,
 textarea {
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
-    font-family: 'Inter', sans-serif;
+    font-family: $sans-serif;
     font-size: 16px;
 }
 

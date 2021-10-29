@@ -29,19 +29,27 @@ export default {
 }
 
 .nav-list {
+  font-family: $monospace;
+  font-size: 1.1rem;
+
   li {
     margin-right: 30px;
 
     a {
-        text-decoration: none;
+      text-decoration: none;
+      color: $light-yellow;
+      transition: color 0.3s;
+
+      &:hover {
+        color: $light-green;
+      }
     }
   }
 }
 
 .header {
   padding: $safe-area-padding;
-  background: black;
-  height: 70px;
+  height: 80px;
   backdrop-filter: blur(10px);
   align-items: center;
   justify-content: space-between;
