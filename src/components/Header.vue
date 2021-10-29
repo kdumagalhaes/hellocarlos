@@ -8,6 +8,7 @@
         cp<span class="dot">.</span>
         <h1>Carlos Pereira - Web developer</h1>
       </span>
+
       <nav class="top-navigation">
         <ul class="nav-list">
           <li><a href="#about">about</a></li>
@@ -69,6 +70,10 @@ export default {
   justify-content: space-between;
 }
 
+.logo-responsive {
+  display: none;
+}
+
 .logo {
   text-transform: uppercase;
   font-size: 1.7rem;
@@ -83,6 +88,12 @@ export default {
     color: transparent;
     position: absolute;
     left: -999px;
+  }
+}
+
+@media only screen and (max-width: $mobile) {
+  .top-navigation {
+    display: none;
   }
 }
 </style>
