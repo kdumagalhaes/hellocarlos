@@ -1,25 +1,33 @@
 <template>
-  <header class="header">
-    <span class="logo">
-      cp<span class="dot">.</span>
-      <h1>Carlos Pereira - Web developer</h1>
-    </span>
-    <nav class="top-navigation">
-      <ul class="nav-list">
-        <li><a href="#">about</a></li>
-        <li><a href="#">experience</a></li>
-        <li><a href="#">developer</a></li>
-        <li><a href="#">music</a></li>
-        <li><a href="#">contact</a></li>
-      </ul>
-      <BasicButton text="Resumé" />
-    </nav>
-  </header>
+  <transition
+    enter-active-class="animate__animated animate__slideInDown"
+    appear
+  >
+    <header class="header">
+      <span class="logo">
+        cp<span class="dot">.</span>
+        <h1>Carlos Pereira - Web developer</h1>
+      </span>
+      <nav class="top-navigation">
+        <ul class="nav-list">
+          <li><a href="#about">about</a></li>
+          <li><a href="#experience">experience</a></li>
+          <li><a href="#developer">developer</a></li>
+          <li><a href="#music">music</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+        <BasicButton text="Resumé" />
+      </nav>
+    </header>
+  </transition>
 </template>
 
 <script>
 // components
 import BasicButton from "./BasicButton.vue";
+// animate.css
+import "animate.css";
+
 export default {
   name: "Header",
   components: {
@@ -58,9 +66,9 @@ export default {
 .header {
   padding: $safe-area-padding;
   height: 80px;
-  backdrop-filter: blur(10px);
   justify-content: space-between;
 }
+
 .logo {
   text-transform: uppercase;
   font-size: 1.7rem;
