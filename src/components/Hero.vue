@@ -1,5 +1,5 @@
 <template>
-  <transition appear>
+  <transition enter-active-class="animate__animated animate__fadeInUp" appear>
     <main class="hero">
       <p class="greeting">Hello! My name is</p>
       <h1 class="name">Carlos Pereira</h1>
