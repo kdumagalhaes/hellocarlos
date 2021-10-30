@@ -68,7 +68,7 @@ export default {
 
 .tech-list,
 .bio {
-  color: $azure;
+  color: $sapphire-blue;
 }
 
 .tech-list {

@@ -91,7 +91,7 @@ export default {
   width: 100%;
   max-width: 600px;
   line-height: 26px;
-  color: $azure;
+  color: $sapphire-blue;
 }
 
 .link {
