@@ -68,4 +68,23 @@ export default {
 .vtex {
   text-transform: uppercase;
 }
+
+@media only screen and (max-width: $tablet) {
+  .hero {
+    padding: $safe-area-padding;
+  }
+
+  .greeting {
+    font-size: 1rem;
+  }
+
+  .name {
+    font-size: 3.5rem;
+  }
+
+  .bio {
+    max-width: 400px;
+    font-size: 0.9rem;
+  }
+}
 </style>
