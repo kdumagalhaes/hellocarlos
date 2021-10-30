@@ -70,7 +70,7 @@ export default {
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  height: 450px;
+  height: 400px;
   padding: 0 40px 0 180px;
 }
 

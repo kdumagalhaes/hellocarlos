@@ -66,6 +66,7 @@ export default {
   padding: $safe-area-padding;
   height: 80px;
   justify-content: space-between;
+  border-top: 2px solid $light-green;
 }
 
 .logo-responsive {
