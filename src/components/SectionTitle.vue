@@ -25,7 +25,7 @@ export default {
   color: $light-yellow;
   display: flex;
   align-items: center;
-  margin: 0 0 20px 20px;
+  margin-bottom: 40px;
 
   &::after {
     content: "";
