@@ -71,7 +71,8 @@ export default {
   justify-content: center;
   width: 100%;
   height: 400px;
-  padding: 0 40px 0 180px;
+  padding: $section-padding;
+  margin-bottom: 250px;
 }
 
 .greeting {
