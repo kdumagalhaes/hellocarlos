@@ -1,0 +1,40 @@
+<template>
+  <section class="projects" id="developer">
+    <SectionTitle title="Portfolio" lineWidth="300px" />
+    <div class="grid">
+      <ProjectCard repo="onebithealth" />
+      <ProjectCard repo="interactive-pricing-component-vue" />
+      <ProjectCard repo="onebitcoin" />
+      <ProjectCard repo="signup-form-vue" />
+      <ProjectCard repo="onebithealth" />
+      <ProjectCard repo="onebithealth" />
+    </div>
+  </section>
+</template>
+
+<script>
+// components
+import SectionTitle from "./SectionTitle.vue";
+import ProjectCard from "./ProjectCard.vue";
+
+export default {
+  name: "Projects",
+  components: {
+    SectionTitle,
+    ProjectCard,
+  },
+};
+</script>
+
+<style lang="scss" scoped>
+.projects {
+  padding: 100px 180px 0 180px;
+  height: 100vh;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+}
+</style>
