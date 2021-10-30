@@ -21,14 +21,14 @@ export default {
   width: 100%;
   height: 40px;
   background: transparent;
-  border: 1px solid $sapphire-blue;
+  border: 1px solid $carolina-blue;
   border-radius: 4px;
   padding: 0 20px;
-  color: $sapphire-blue;
+  color: $carolina-blue;
   transition: background 0.3s;
 
   &:hover {
-    background: $azure;
+    background: $celadon-blue;
   }
 }
 </style>
