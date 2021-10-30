@@ -66,8 +66,12 @@ export default {
   margin-right: 50px;
 }
 
+.tech-list,
+.bio {
+  color: $azure;
+}
+
 .tech-list {
-  color: $light-blue;
   font-family: $monospace;
   margin-right: 50px;
 
@@ -78,7 +82,7 @@ export default {
     transition: all 0.4s;
 
     &:hover {
-      color: $light-green;
+      color: $sapphire-blue;
     }
   }
 }
@@ -86,7 +90,6 @@ export default {
 .bio {
   width: 100%;
   max-width: 500px;
-  color: $light-blue;
   line-height: 26px;
   margin-bottom: 15px;
 }

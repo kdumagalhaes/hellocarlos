@@ -76,14 +76,14 @@ export default {
 }
 
 .greeting {
-  color: $light-green;
+  color: $sapphire-blue;
   font-family: $monospace;
   font-size: 1.3rem;
 }
 
 .name,
 .bio {
-  color: $light-yellow;
+  color: $celadon-blue;
   margin-bottom: 20px;
 }
 
@@ -95,17 +95,17 @@ export default {
   width: 100%;
   max-width: 600px;
   line-height: 26px;
-  color: $light-blue;
+  color: $carolina-blue;
 }
 
 .link {
-  color: $light-green;
+  color: $sapphire-blue;
   transition: color 0.3s;
   font-weight: $bold;
   text-decoration: none;
 
   &:hover {
-    color: $light-yellow;
+    color: $celadon-blue;
   }
 }
 

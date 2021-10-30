@@ -22,7 +22,7 @@ export default {
 
 <style lang="scss" scoped>
 .section-title {
-  color: $light-yellow;
+  color: $celadon-blue;
   display: flex;
   align-items: center;
   margin-bottom: 40px;
@@ -32,7 +32,7 @@ export default {
     display: block;
     width: var(--lineWidth);
     height: 1px;
-    background-color: $light-blue;
+    background-color: $carolina-blue;
     margin-left: 30px;
   }
 }

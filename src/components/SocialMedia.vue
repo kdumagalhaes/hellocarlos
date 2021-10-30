@@ -62,7 +62,7 @@ export default {
     display: block;
     width: 1px;
     height: 80px;
-    background-color: $light-green;
+    background-color: $sapphire-blue;
     margin-left: 58px;
   }
 }
