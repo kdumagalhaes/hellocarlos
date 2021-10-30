@@ -2,7 +2,7 @@
   <transition enter-active-class="animate__animated animate__fadeIn" appear>
     <section class="about" id="about">
       <div class="text-content">
-        <SectionTitle title="About Me" lineWidth="300px" />
+        <SectionTitle title="About Me" lineWidth="350px" />
         <p class="bio">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore
           facilis tempora impedit architecto magnam quo voluptatem quod,
@@ -94,7 +94,7 @@ export default {
 .picture {
   width: 100%;
   max-width: 250px;
-  height: 375px;
+  max-height: 375px;
   border-radius: 4px;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
     0 2px 4px -1px rgba(0, 0, 0, 0.06);
@@ -103,6 +103,31 @@ export default {
 
   &:hover {
     filter: grayscale(0);
+  }
+}
+
+@media only screen and (max-width: $tablet) {
+  .about {
+    padding: $safe-area-padding;
+    flex-direction: column;
+  }
+
+  .bio {
+    max-width: 700px;
+  }
+
+  .text-content {
+    margin: 0 0 50px 0;
+  }
+
+  .picture {
+    margin: 0 auto;
+  }
+
+  .tech-list {
+    li {
+      list-style: none;
+    }
   }
 }
 </style>
