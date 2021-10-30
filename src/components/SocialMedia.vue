@@ -62,7 +62,7 @@ export default {
     display: block;
     width: 1px;
     height: 80px;
-    background-color: $sapphire-blue;
+    background-color: $azure;
     margin-left: 58px;
   }
 }
