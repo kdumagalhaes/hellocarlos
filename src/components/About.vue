@@ -53,8 +53,10 @@ export default {
 
 <style lang="scss" scoped>
 .about {
+  display: flex;
+  align-items: center;
   padding: 0 40px 0 300px;
-  margin-bottom: 170px;
+  height: 100vh;
 }
 
 .about,
