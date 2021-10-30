@@ -28,7 +28,7 @@ export default {
   transition: background 0.3s;
 
   &:hover {
-      background: $primary-green;
+    background: $primary-green;
   }
 }
 </style>

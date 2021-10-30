@@ -1,12 +1,17 @@
 <template>
   <section class="about" id="about">
-    <h1>about me section</h1>
+    <SectionTitle title="About Me" lineWidth="300px" />
   </section>
 </template>
 
 <script>
+// components
+import SectionTitle from "./SectionTitle.vue";
 export default {
   name: "About",
+  components: {
+    SectionTitle,
+  },
 };
 </script>
 
