@@ -82,7 +82,7 @@ export default {
     transition: all 0.4s;
 
     &:hover {
-      color: $sapphire-blue;
+      color: $carolina-blue;
     }
   }
 }
