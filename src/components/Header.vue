@@ -52,11 +52,11 @@ export default {
 
     a {
       text-decoration: none;
-      color: $celadon-blue;
+      color: $azure;
       transition: color 0.3s;
 
       &:hover {
-        color: $sapphire-blue;
+        color: $carolina-blue;
       }
     }
   }
@@ -66,7 +66,7 @@ export default {
   padding: $safe-area-padding;
   height: 80px;
   justify-content: space-between;
-  border-top: 2px solid $sapphire-blue;
+  border-top: 2px solid $carolina-blue;
 }
 
 .logo-responsive {
@@ -77,10 +77,10 @@ export default {
   text-transform: uppercase;
   font-size: 1.7rem;
   font-weight: $black;
-  color: $celadon-blue;
+  color: $azure;
 
   .dot {
-    color: $sapphire-blue;
+    color: $carolina-blue;
   }
   h1 {
     font-size: 1px;
