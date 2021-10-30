@@ -1,5 +1,5 @@
 <template>
-  <section class="projects" id="developer">
+  <section class="projects" id="portfolio">
     <SectionTitle title="Portfolio" lineWidth="300px" />
     <div class="grid">
       <ProjectCard repo="onebithealth" />

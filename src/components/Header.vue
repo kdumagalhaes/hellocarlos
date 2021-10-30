@@ -12,8 +12,7 @@
       <nav class="top-navigation">
         <ul class="nav-list">
           <li><a href="#about">about</a></li>
-          <li><a href="#developer">developer</a></li>
-          <li><a href="#music">musician</a></li>
+          <li><a href="#portfolio">portfolio</a></li>
           <li><a href="#contact">contact</a></li>
         </ul>
         <BasicButton text="Resumé" />

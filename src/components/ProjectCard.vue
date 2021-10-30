@@ -1,11 +1,15 @@
 <template>
-  <a :href="url" target="_blank" class="card">
-    <h3 class="title">🔗 {{ name }}</h3>
-    <p class="description">
-      {{ description }}
-    </p>
-    <p class="tech">{{ language }}</p>
-  </a>
+  <keep-alive>
+    <transition enter-active-class="animate__animated animate__fadeIn" appear>
+      <a :href="url" target="_blank" class="card">
+        <h3 class="title">🔗 {{ name }}</h3>
+        <p class="description">
+          {{ description }}
+        </p>
+        <p class="tech">{{ language }}</p>
+      </a>
+    </transition>
+  </keep-alive>
 </template>
 
 <script>
