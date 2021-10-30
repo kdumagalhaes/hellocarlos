@@ -26,8 +26,6 @@
 <script>
 // components
 import BasicButton from "./BasicButton.vue";
-// animate.css
-import "animate.css";
 
 export default {
   name: "Header",
