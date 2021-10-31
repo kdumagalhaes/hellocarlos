@@ -113,16 +113,24 @@ export default {
   .about {
     padding: $safe-area-padding;
   }
-
-  .text-content {
-    margin: 0 0 40px 0;
-  }
 }
 
 @media only screen and (max-width: $mobile) {
   .about {
     flex-direction: column;
     align-items: center;
+  }
+
+  .text-content {
+    margin: 0 0 40px 0;
+  }
+
+  .tech-list {
+    margin: 0;
+
+    &:first-child {
+      margin-right: 4px;
+    }
   }
 }
 </style>
