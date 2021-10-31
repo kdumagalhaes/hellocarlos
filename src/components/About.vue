@@ -113,6 +113,10 @@ export default {
   .about {
     padding: $safe-area-padding;
   }
+
+  .text-content {
+    margin: 0 0 40px 0;
+  }
 }
 
 @media only screen and (max-width: $mobile) {
