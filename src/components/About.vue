@@ -16,7 +16,7 @@
         <p class="bio">
           Now, I intend to continue helping people to have
           <strong>the best experience with digital products</strong> entering
-          the market as a <strong>Front-End Developer</strong>. One of my
+          the market as a <strong>Frontend Developer</strong>. One of my
           premises is that the Web should be a place of access to information
           and content for all people and, as a developer, it is also my
           responsibility to have
