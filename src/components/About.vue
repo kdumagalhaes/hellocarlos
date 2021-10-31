@@ -4,21 +4,24 @@
       <div class="text-content">
         <SectionTitle title="About Me" lineWidth="350px" />
         <p class="bio">
-          Luso-Brazilian professional graduated in Advertising and studying
-          Software Development. In my journey dealing directly with clients, I
-          began to understand the importance of creating successful
+          <strong>Luso-Brazilian</strong> professional graduated in Advertising
+          and studying Software Development. In my journey dealing directly with
+          clients, I began to understand the importance of creating successful
           relationships and cases, always with creativity and empathy.
-          Currently, I’m a Product Technical Leader working on physical stores
-          solutions at VTEX, which has given me the opportunity to be directly
-          related to our products vision and future.
+          Currently, I’m a <strong>Product Technical Leader</strong> working on
+          physical stores solutions at <strong>VTEX</strong>, which has given me
+          the opportunity to be directly related to our products vision and
+          future.
         </p>
         <p class="bio">
-          Now, I intend to continue helping people to have the best experience
-          with digital products entering the market as a Front-End Developer.
-          One of my premises is that the Web should be a place of access to
-          information and content for all people and, as a developer, it is also
-          my responsibility to have good practices and accessibility as the
-          basis of my work.
+          Now, I intend to continue helping people to have
+          <strong>the best experience with digital products</strong> entering
+          the market as a <strong>Front-End Developer</strong>. One of my
+          premises is that the Web should be a place of access to information
+          and content for all people and, as a developer, it is also my
+          responsibility to have
+          <strong>good practices and accessibility</strong> as the basis of my
+          work.
         </p>
         <p class="bio">Here are a few technologies I’ve been studying:</p>
         <div class="lists">
