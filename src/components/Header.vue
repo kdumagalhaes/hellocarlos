@@ -15,7 +15,7 @@
           <li><a href="#portfolio">portfolio</a></li>
           <li><a href="#contact">contact</a></li>
         </ul>
-        <BasicButton text="Resumé" />
+        <BasicButton text="Resumé" height="40px" fontSize="1rem" />
       </nav>
     </header>
   </transition>
