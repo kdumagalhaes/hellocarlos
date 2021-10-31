@@ -72,7 +72,7 @@ export default {
   width: 100%;
   height: 400px;
   padding: $section-padding;
-  margin-bottom: 250px;
+  margin-bottom: 210px;
 }
 
 .greeting {
@@ -133,6 +133,7 @@ export default {
 
   .social-media-responsive {
     display: flex;
+    margin-top: 30px;
   }
 
   .social-media-icon {

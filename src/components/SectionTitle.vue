@@ -30,7 +30,8 @@ export default {
   &::after {
     content: "";
     display: block;
-    width: var(--lineWidth);
+    width: 100%;
+    max-width: var(--lineWidth);
     height: 1px;
     background-color: $azure;
     margin-left: 30px;

@@ -53,6 +53,7 @@ export default {
 <style lang="scss" scoped>
 .card {
   width: 100%;
+  max-width: 435px;
   height: 200px;
   background-color: $dark-blue;
   border-radius: 4px;
