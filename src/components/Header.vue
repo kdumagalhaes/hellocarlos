@@ -19,6 +19,7 @@
           text="Resume"
           height="40px"
           fontSize="1rem"
+          maxWidth="140px"
           link="https://www.dropbox.com/s/w76q57xlhaf56w8/DevCV.pdf?dl=0"
         />
       </nav>

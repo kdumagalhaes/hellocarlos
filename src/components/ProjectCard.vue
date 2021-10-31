@@ -32,7 +32,6 @@ export default {
   },
   methods: {
     fetchRepoApi(repo) {
-      console.log("ola");
       repo = this.repo;
       fetch(`https://api.github.com/repos/kdumagalhaes/${repo}`)
         .then((res) => res.json())
