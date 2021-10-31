@@ -29,12 +29,24 @@ export default {
 <style lang="scss" scoped>
 .projects {
   padding: 100px 180px 0 180px;
-  height: 100vh;
+  margin-bottom: 100px;
 }
 
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 15px;
+}
+
+@media only screen and (max-width: $tablet) {
+  .projects {
+    padding: $safe-area-padding;
+  }
+
+  .grid,
+  .projects {
+    display: flex;
+    flex-direction: column;
+  }
 }
 </style>

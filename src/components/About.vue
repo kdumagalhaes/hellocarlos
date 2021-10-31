@@ -53,10 +53,8 @@ export default {
 
 <style lang="scss" scoped>
 .about {
-  display: flex;
-  align-items: center;
-  padding: 0 40px 0 300px;
-  height: 100vh;
+  padding: 80px 40px 0 300px;
+  margin-bottom: 80px;
 }
 
 .about,
@@ -114,25 +112,13 @@ export default {
 @media only screen and (max-width: $tablet) {
   .about {
     padding: $safe-area-padding;
+  }
+}
+
+@media only screen and (max-width: $mobile) {
+  .about {
     flex-direction: column;
-  }
-
-  .bio {
-    max-width: 700px;
-  }
-
-  .text-content {
-    margin: 0 0 50px 0;
-  }
-
-  .picture {
-    margin: 0 auto;
-  }
-
-  .tech-list {
-    li {
-      list-style: none;
-    }
+    align-items: center;
   }
 }
 </style>
