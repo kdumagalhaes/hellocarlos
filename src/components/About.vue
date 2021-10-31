@@ -4,20 +4,23 @@
       <div class="text-content">
         <SectionTitle title="About Me" lineWidth="350px" />
         <p class="bio">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore
-          facilis tempora impedit architecto magnam quo voluptatem quod,
-          voluptatum et id numquam in repudiandae accusantium consequatur iusto
-          molestias, aliquid, deleniti ipsam.
+          Luso-Brazilian professional graduated in Advertising and studying
+          Software Development. In my journey dealing directly with clients, I
+          began to understand the importance of creating successful
+          relationships and cases, always with creativity and empathy.
+          Currently, I’m a Product Technical Leader working on physical stores
+          solutions at VTEX, which has given me the opportunity to be directly
+          related to our products vision and future.
         </p>
         <p class="bio">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius sed
-          culpa omnis temporibus beatae illum, sapiente dolore corrupti delectus
-          iure veniam harum assumenda! Aspernatur consequatur voluptate velit
-          voluptatibus enim ipsa!
+          Now, I intend to continue helping people to have the best experience
+          with digital products entering the market as a Front-End Developer.
+          One of my premises is that the Web should be a place of access to
+          information and content for all people and, as a developer, it is also
+          my responsibility to have good practices and accessibility as the
+          basis of my work.
         </p>
-        <p class="bio">
-          Here are a few technologies I’ve been studying recently:
-        </p>
+        <p class="bio">Here are a few technologies I’ve been studying:</p>
         <div class="lists">
           <ul class="tech-list">
             <li>JavaScript (ES6+)</li>
