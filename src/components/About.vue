@@ -59,7 +59,7 @@ export default {
 
 <style lang="scss" scoped>
 .about {
-  padding: 80px 40px 0 300px;
+  padding: 60px 180px 0 180px;
   margin-bottom: 80px;
 }
 
@@ -107,17 +107,21 @@ export default {
   border-radius: 4px;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
     0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  filter: grayscale(100%);
+  filter: grayscale(0);
   transition: filter 0.5s;
 
   &:hover {
-    filter: grayscale(0);
+    filter: grayscale(100%);
   }
 }
 
 @media only screen and (max-width: $tablet) {
   .about {
     padding: $safe-area-padding;
+  }
+
+  .lists {
+    flex-direction: column;
   }
 }
 
@@ -129,6 +133,10 @@ export default {
 
   .text-content {
     margin: 0 0 40px 0;
+  }
+
+  .lists {
+    flex-direction: column;
   }
 
   .tech-list {
