@@ -59,7 +59,10 @@ export default {
 
 <style lang="scss" scoped>
 .about {
-  padding: 80px 40px 0 300px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: $section-padding;
   margin-bottom: 80px;
 }
 
@@ -107,11 +110,11 @@ export default {
   border-radius: 4px;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
     0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  filter: grayscale(100%);
+  filter: grayscale(0);
   transition: filter 0.5s;
 
   &:hover {
-    filter: grayscale(0);
+    filter: grayscale(100%);
   }
 }
 
