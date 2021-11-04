@@ -7,6 +7,7 @@
       '--maxWidth': maxWidth,
       '--height': height,
       '--fontSize': fontSize,
+      '--margin': margin,
     }"
   >
     {{ text }}
@@ -37,6 +38,10 @@ export default {
       type: String,
       required: true,
     },
+    margin: {
+      type: String,
+      required: false,
+    }
   },
 };
 </script>
@@ -57,6 +62,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: var(--margin);
 
   &:hover {
     background: $celadon-blue;
