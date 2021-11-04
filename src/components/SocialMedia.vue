@@ -56,6 +56,7 @@ export default {
 .social-media {
   position: fixed;
   bottom: 70px;
+  right: 58px;
 
   &::after {
     content: "";
@@ -63,7 +64,7 @@ export default {
     width: 1px;
     height: 80px;
     background-color: $azure;
-    margin-left: 58px;
+    margin-left: 60px;
   }
 }
 
