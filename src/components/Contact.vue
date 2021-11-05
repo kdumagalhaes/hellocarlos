@@ -11,6 +11,14 @@
       fontSize="2rem"
       link="mailto:ce.magalhaespereira@gmail.com"
     />
+    <BasicButton
+      text="Resume"
+      maxWidth="350px"
+      height="70px"
+      fontSize="2rem"
+      link="https://www.dropbox.com/s/w76q57xlhaf56w8/DevCV.pdf?dl=0"
+      margin="20px 0"
+    />
   </section>
 </template>
 
