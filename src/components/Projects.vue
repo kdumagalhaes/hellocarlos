@@ -9,6 +9,14 @@
       <ProjectCard repo="onebithealth" />
       <ProjectCard repo="onebithealth" />
     </div>
+    <BasicButton
+      text="See more on Github"
+      maxWidth="300px"
+      height="50px"
+      fontSize="1.2rem"
+      link="https://github.com/kdumagalhaes"
+      margin="30px auto"
+    />
   </section>
 </template>
 
@@ -16,19 +24,21 @@
 // components
 import SectionTitle from "./SectionTitle.vue";
 import ProjectCard from "./ProjectCard.vue";
+import BasicButton from "./BasicButton.vue";
 
 export default {
   name: "Projects",
   components: {
     SectionTitle,
     ProjectCard,
+    BasicButton,
   },
 };
 </script>
 
 <style lang="scss" scoped>
 .projects {
-  padding: 100px 180px 0 180px;
+  padding: 70px 180px 0 180px;
   margin-bottom: 100px;
 }
 
