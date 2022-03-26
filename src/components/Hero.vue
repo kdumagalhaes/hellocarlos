@@ -5,10 +5,10 @@
       <h1 class="name">Carlos Pereira</h1>
       <p class="bio">
         I’m a software developer student passionate about
-        <strong>frontend</strong> stuff, and sometimes a
+        <strong>Front-end</strong> stuff, and sometimes a
         <strong>musician</strong>. Currently, I’m a
-        <strong>Product Technical Leader</strong> working on physical stores
-        solutions at
+        <strong>Product Support Specialist</strong> working on the VTEX IO, 
+        VTEX Store Framework, VTEX CMS, VTEX Inteligent Search and B2B solutions at
         <a href="https://vtex.com" target="_blank" class="link vtex">vtex</a>.
       </p>
       <ul class="social-media-responsive">
