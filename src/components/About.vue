@@ -4,24 +4,22 @@
       <div class="text-content">
         <SectionTitle title="About Me" lineWidth="350px" />
         <p class="bio">
-          <strong>Luso-Brazilian</strong> professional graduated in Advertising
-          and studying Software Development. In my journey dealing directly with
-          clients, I began to understand the importance of creating successful
-          relationships and cases, always with creativity and empathy.
-          Currently, I’m a <strong>Product Technical Leader</strong> working on
-          physical stores solutions at <strong>VTEX</strong>, which has given me
-          the opportunity to be directly related to our products vision and
-          future.
+          <strong>Luso-Brazilia</strong> professional graduated in Advertising
+          and studying <strong>Software Development</strong>, passionate for
+          <strong>Front-end</strong>. As a <strong>Product Support</strong> I am
+          accountable for analysis, troubleshooting and driving the resolution
+          of product issues while engaging with all levels in the Support
+          Organization, Product (Product Managers), Development (Engineer
+          Managers, Software Engineers), Operations teams, like a support layer
+          inside the product.
         </p>
         <p class="bio">
-          Now, I intend to continue helping people to have
-          <strong>the best experience with digital products</strong> entering
-          the market as a <strong>Frontend Developer</strong>. One of my
-          premises is that the Web should be a place of access to information
-          and content for all people and, as a developer, it is also my
-          responsibility to have
-          <strong>good practices and accessibility</strong> as the basis of my
-          work.
+          Previously, I was responsible for managing the
+          <strong>Physical Stores Product Support Analysts team</strong>. As a
+          <strong>Product Support Leader</strong>, my role was to well-being and
+          provide the best environment for the team to work with high
+          performance and engagement. In addition, I also conducted the planning
+          of actions based on our demands and goals.
         </p>
         <p class="bio">Here are a few technologies I’ve been studying:</p>
         <div class="lists">
