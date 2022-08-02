@@ -7,8 +7,8 @@
         I’m a software developer student passionate about
         <strong>Front-end</strong> stuff, and sometimes a
         <strong>musician</strong>. Currently, I’m a
-        <strong>Product Support Specialist</strong> working on the VTEX IO, 
-        VTEX Store Framework, VTEX CMS, VTEX Inteligent Search and B2B solutions at
+        <strong>Product Support Specialist</strong> working on the VTEX IO, VTEX
+        Store Framework, VTEX CMS, VTEX Inteligent Search and B2B solutions at
         <a href="https://vtex.com" target="_blank" class="link vtex">vtex</a>.
       </p>
       <ul class="social-media-responsive">
