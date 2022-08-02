@@ -41,7 +41,7 @@ export default {
     margin: {
       type: String,
       required: false,
-    }
+    },
   },
 };
 </script>
