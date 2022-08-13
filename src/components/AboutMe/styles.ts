@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.main`
-  height: 100vh;
+  height: 100%;
   padding-top: 4.4rem;
 
   @media (max-width: 480px) {
@@ -10,10 +10,10 @@ export const Container = styled.main`
 `
 
 export const Bio = styled.div`
-border-radius: 6px;
-padding: 1rem;
-margin: 1rem auto;
-max-width: 55rem;
+  border-radius: 6px;
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 55rem;
   display: flex;
   gap: 2rem;
   box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
@@ -44,6 +44,7 @@ max-width: 55rem;
 
   @media (max-width: 480px) {
     flex-direction: column;
+    box-shadow: none;
 
     .profile-pic {
       max-width: 100%;
