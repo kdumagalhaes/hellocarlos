@@ -1,4 +1,5 @@
 // components
+import { Hero } from './components/Hero/Hero'
 // import { Wip } from './components/WIP/Wip'
 import { GlobalStyles } from './GlobalStyles'
 
@@ -11,6 +12,7 @@ function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
       <HeaderNav />
+      <Hero />
       {/* <Wip /> */}
       <GlobalStyles />
     </ThemeProvider>
