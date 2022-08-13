@@ -1,16 +1,18 @@
 //components
-import { Wip } from './components/WIP/Wip'
+// import { Wip } from './components/WIP/Wip'
 import { GlobalStyles } from './GlobalStyles'
 
 //assets
 import {ThemeProvider} from 'styled-components'
 import {defaultTheme} from './themes/default'
+import { HeaderNav } from './components/Header/HeaderNav'
 
 function App() {
 
   return (
     <ThemeProvider theme={defaultTheme}>
-   <Wip />
+      <HeaderNav />
+   {/* <Wip /> */}
    <GlobalStyles />
    </ThemeProvider>
   )
