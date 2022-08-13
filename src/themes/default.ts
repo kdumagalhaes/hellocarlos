@@ -1,9 +1,9 @@
 export const defaultTheme = {
   // colors
-  'dark-liver': '#403F4C',
-  'light-gray': '#f7f7f7',
-  azure: '#3185FC',
-  'sizzling-red': '#E84855',
-  'naples-yellow': '#F9DC5C',
-  'cameo-pink': '#EFBCD5',
+  independance: '#484D6D',
+  magnolia: '#EFE9F4',
+  'forest-green': '#57A773',
+  'forest-asd': '#3f7853',
+  'cyan-process': '#08B2E3',
+  'fire-opal': '#EE6352',
 }

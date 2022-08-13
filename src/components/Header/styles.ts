@@ -3,7 +3,9 @@ import styled from 'styled-components'
 export const Container = styled.div`
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
-  border-bottom: 1px solid ${(props) => props.theme['dark-liver']};
+  position: fixed;
+  top: 0;
+  width: 100%;
 `
 
 export const Header = styled.header`
@@ -21,7 +23,7 @@ export const Logo = styled.span`
   position: relative;
 
   .logo-dot {
-    color: ${(props) => props.theme.azure};
+    color: ${(props) => props.theme['forest-green']};
   }
 
   .seo-text {
@@ -45,13 +47,13 @@ export const NavMenu = styled.nav`
     transition: border-bottom 0.4s;
 
     a {
-      color: ${(props) => props.theme['light-gray']};
+      color: ${(props) => props.theme.magnolia};
       text-decoration: none;
       transition: color 0.3s;
       font-size: 1.1rem;
 
       &:hover {
-        color: ${(props) => props.theme.azure};
+        color: ${(props) => props.theme['forest-green']};
       }
     }
   }

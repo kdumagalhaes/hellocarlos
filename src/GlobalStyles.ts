@@ -1,8 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
 
-// assets
-import BgTexture from './assets/images/bg-texture.webp'
-
 export const GlobalStyles = createGlobalStyle`
 * {
     margin: 0;
@@ -12,9 +9,8 @@ export const GlobalStyles = createGlobalStyle`
 }
 body {
     font-family: 'Inter', sans-serif;
-    /* background-color: ${(props) => props.theme['dark-liver']}; */
-    background-image: url(${BgTexture});
-    color: ${(props) => props.theme['light-gray']};
+    background-color: ${(props) => props.theme.independance};
+    color: ${(props) => props.theme.magnolia};
     -webkit-font-smoothing: antialiased;
 }
 body, input, textarea, button {
