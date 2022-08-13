@@ -6,7 +6,7 @@ const AnimateBg = keyframes`
   100%{background-position:0% 50%}
 `
 
-export const Container = styled.main`
+export const Container = styled.div`
   height: 100vh;
   display: flex;
   gap: 1rem;
