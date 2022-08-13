@@ -1,14 +1,14 @@
-import {Bar, Container, Title} from './styles'
+import { Bar, Container, Title } from './styles'
 
 interface SectionTitleProps {
-    text: string
+  text: string
 }
 
-export function SectionTitle({text}: SectionTitleProps) {
-    return (
-        <Container>
-        <Title>{text}</Title>
-        <Bar />
-        </Container>
-    )
+export function SectionTitle({ text }: SectionTitleProps) {
+  return (
+    <Container>
+      <Title>{text}</Title>
+      <Bar />
+    </Container>
+  )
 }
