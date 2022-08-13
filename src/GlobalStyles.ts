@@ -1,6 +1,6 @@
-import {createGlobalStyle} from 'styled-components'
+import { createGlobalStyle } from 'styled-components'
 
-//assets
+// assets
 import BgTexture from './assets/images/bg-texture.webp'
 
 export const GlobalStyles = createGlobalStyle`
