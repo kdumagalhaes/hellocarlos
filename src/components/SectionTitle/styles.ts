@@ -17,7 +17,7 @@ export const Title = styled.span`
 
 export const Bar = styled.span`
   margin-top: 1rem;
-  width: 5rem;
+  width: 100px;
   height: 2px;
   background-color: ${(props) => props.theme['forest-green']};
 `

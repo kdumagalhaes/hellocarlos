@@ -8,6 +8,7 @@ import { ThemeProvider } from 'styled-components'
 import { defaultTheme } from './themes/default'
 import { HeaderNav } from './components/Header/HeaderNav'
 import { AboutMe } from './components/AboutMe/AboutMe'
+import { Projects } from './components/Projects/Projects'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <HeaderNav />
       <Hero />
       <AboutMe />
+      <Projects />
       {/* <Wip /> */}
       <GlobalStyles />
     </ThemeProvider>
