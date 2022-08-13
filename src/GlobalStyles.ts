@@ -9,8 +9,8 @@ export const GlobalStyles = createGlobalStyle`
 }
 body {
     font-family: 'Inter', sans-serif;
-    background-color: ${(props) => props.theme['independance']};
-    color: ${(props) => props.theme['magnolia']};
+    background-color: ${(props) => props.theme.independance};
+    color: ${(props) => props.theme.magnolia};
     -webkit-font-smoothing: antialiased;
 }
 body, input, textarea, button {

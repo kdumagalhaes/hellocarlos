@@ -47,7 +47,7 @@ export const NavMenu = styled.nav`
     transition: border-bottom 0.4s;
 
     a {
-      color: ${(props) => props.theme['magnolia']};
+      color: ${(props) => props.theme.magnolia};
       text-decoration: none;
       transition: color 0.3s;
       font-size: 1.1rem;
