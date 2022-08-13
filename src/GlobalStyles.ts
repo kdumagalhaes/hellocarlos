@@ -7,4 +7,17 @@ export const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
     list-style: none;
 }
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: ${(props) => props.theme.background};
+    color: ${(props) => props.theme['base-text']};
+    -webkit-font-smoothing: antialiased;
+}
+body, input, textarea, button {
+    font-weight: 400;
+    font-size: 1rem;
+}
+button {
+    cursor: pointer;
+}
 `
