@@ -4,9 +4,15 @@ export const Container = styled.div`
   border-radius: 6px;
   box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
   max-width: 33rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 
   .wrapper {
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
   }
 
   .thumbnail {
@@ -32,6 +38,7 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: auto;
   }
 
   .url {
@@ -40,6 +47,11 @@ export const Container = styled.div`
     border-radius: 6px;
     color: ${(props) => props.theme['forest-green']};
     text-decoration: none;
+    transition: all 0.3s;
+
+    &:hover {
+      background-color: ${(props) => props.theme.magnolia};
+    }
   }
 
   .techs {

@@ -6,40 +6,38 @@ import { Card, CardProps } from './Card/Card'
 
 const projects: CardProps[] = [
   {
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id voluptas eos fuga doloribus aspernatur rerum sunt dolores ipsum quis vitae dicta blanditiis corrupti excepturi dolorem quos, minima possimus quasi!',
+    description: 'A Coffee ecommerce with a functional checkout',
+    language: 'React TS',
+    thumbnail: 'src/assets/thumbnails/coffee-delivery-screen.webp',
+    title: 'Coffee Delivery Ecommerce',
+    url: 'https://github.com/kdumagalhaes/coffee-delivery-ecommerce',
+    repository: 'https://github.com/kdumagalhaes/coffee-delivery-ecommerce',
+  },
+  {
+    description: 'A To do application made with React + TypeScript and Vite.',
     language: 'React TS',
     thumbnail: 'src/assets/thumbnails/todo-thumb.webp',
-    title: 'Test project',
+    title: 'ToDo',
+    url: 'https://to-do-react-coral.vercel.app/',
+    repository: 'https://github.com/kdumagalhaes/to-do-react',
+  },
+  {
+    description:
+      "The OneBitHealth app calculates your IMC! It was made based on One Bit Code's RN beginner course!",
+    language: 'React Native',
+    thumbnail: 'src/assets/thumbnails/onebithealth.webp',
+    title: 'OneBitHealth',
     url: '#',
-    repository: '#',
+    repository: 'https://github.com/kdumagalhaes/onebithealth',
   },
   {
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id voluptas eos fuga doloribus aspernatur rerum sunt dolores ipsum quis vitae dicta blanditiis corrupti excepturi dolorem quos, minima possimus quasi!',
     language: 'React TS',
-    thumbnail: 'src/assets/thumbnails/todo-thumb.webp',
-    title: 'Test project',
-    url: '#',
-    repository: '#',
-  },
-  {
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id voluptas eos fuga doloribus aspernatur rerum sunt dolores ipsum quis vitae dicta blanditiis corrupti excepturi dolorem quos, minima possimus quasi!',
-    language: 'React TS',
-    thumbnail: 'src/assets/thumbnails/todo-thumb.webp',
-    title: 'Test project',
-    url: '#',
-    repository: '#',
-  },
-  {
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id voluptas eos fuga doloribus aspernatur rerum sunt dolores ipsum quis vitae dicta blanditiis corrupti excepturi dolorem quos, minima possimus quasi!',
-    language: 'React TS',
-    thumbnail: 'src/assets/thumbnails/todo-thumb.webp',
-    title: 'Test project',
-    url: '#',
-    repository: '#',
+    thumbnail: 'src/assets/thumbnails/time-tracking-screen.webp',
+    title: 'Time Tracking Dashboard',
+    url: 'https://time-tracking-dashboard-react-ochre.vercel.app/',
+    repository: 'https://github.com/kdumagalhaes/time-tracking-dashboard-react',
   },
 ]
 
