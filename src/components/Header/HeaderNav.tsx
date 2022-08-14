@@ -17,7 +17,13 @@ export function HeaderNav() {
               <a href="#projects">projects</a>
             </li>
             <li className="nav-item">
-              <a href="#">resumé</a>
+              <a
+                href="https://docs.google.com/document/d/1j8gyBn0wBx-nWUtVNRD5MEvkPCKCfxRCoMG55dWx_CY/edit?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
+                resume
+              </a>
             </li>
             <li className="nav-item">
               <a href="#contact">contact</a>
