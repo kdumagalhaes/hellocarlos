@@ -6,12 +6,12 @@ import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 
 export function Contact() {
-  const form = useRef<HTMLFormElement>(null)
+  const form = useRef<HTMLFormElement | string>('')
   const successNotification = () =>
     toast.success('Success! Thank you for your message!')
   const errorNotification = () => toast.error('Ops! Something went wrong!')
 
-  const sendEmail = (event: React.ChangeEvent<HTMLInputElement>): void => {
+  const sendEmail = (event: React.FormEvent<HTMLFormElement>): void => {
     event.preventDefault()
 
     emailjs
