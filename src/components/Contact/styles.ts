@@ -4,7 +4,7 @@ export const Container = styled.div``
 
 export const ContactForm = styled.form`
   max-width: 55rem;
-  margin: 0 auto 10rem auto;
+  margin: 0 auto 1.7rem auto;
   padding: 1rem;
   display: flex;
   justify-content: center;

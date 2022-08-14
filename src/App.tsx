@@ -10,6 +10,7 @@ import { HeaderNav } from './components/Header/HeaderNav'
 import { AboutMe } from './components/AboutMe/AboutMe'
 import { Projects } from './components/Projects/Projects'
 import { Contact } from './components/Contact/Contact'
+import { Footer } from './components/Footer/Footer'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <AboutMe />
       <Projects />
       <Contact />
+      <Footer />
       {/* <Wip /> */}
       <GlobalStyles />
     </ThemeProvider>
