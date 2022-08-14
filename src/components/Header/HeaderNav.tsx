@@ -11,16 +11,16 @@ export function HeaderNav() {
         <NavMenu>
           <ul className="nav-list">
             <li className="nav-item">
-              <a href="#">about me</a>
+              <a href="#about-me">about me</a>
             </li>
             <li className="nav-item">
-              <a href="#">projects</a>
+              <a href="#projects">projects</a>
             </li>
             <li className="nav-item">
               <a href="#">resumé</a>
             </li>
             <li className="nav-item">
-              <a href="#">contact</a>
+              <a href="#contact">contact</a>
             </li>
           </ul>
         </NavMenu>
