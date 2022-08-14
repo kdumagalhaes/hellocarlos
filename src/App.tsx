@@ -9,6 +9,7 @@ import { defaultTheme } from './themes/default'
 import { HeaderNav } from './components/Header/HeaderNav'
 import { AboutMe } from './components/AboutMe/AboutMe'
 import { Projects } from './components/Projects/Projects'
+import { Contact } from './components/Contact/Contact'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Hero />
       <AboutMe />
       <Projects />
+      <Contact />
       {/* <Wip /> */}
       <GlobalStyles />
     </ThemeProvider>

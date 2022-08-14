@@ -16,6 +16,7 @@ body {
 body, input, textarea, button {
     font-weight: 400;
     font-size: 1rem;
+    font-family: 'Inter', sans-serif;
 }
 button {
     cursor: pointer;
