@@ -8,7 +8,7 @@ import { FaLinkedin, FaGithub } from 'react-icons/fa'
 
 export function AboutMe() {
   return (
-    <Container>
+    <Container id="about-me">
       <SectionTitle text="About Me" />
       <Bio>
         <img

@@ -45,7 +45,7 @@ const projects: CardProps[] = [
 
 export function Projects() {
   return (
-    <Container>
+    <Container id="projects">
       <SectionTitle text="Projects" />
       <ProjectsGrid>
         {projects.map((project) => {

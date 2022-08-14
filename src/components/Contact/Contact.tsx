@@ -34,7 +34,7 @@ export function Contact() {
   }
 
   return (
-    <Container>
+    <Container id="contact">
       <SectionTitle text="Contact me" />
       <ContactForm ref={form} id="contact-form" onSubmit={sendEmail}>
         <label htmlFor="from_name">Name</label>
