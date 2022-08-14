@@ -32,7 +32,7 @@ const projects: CardProps[] = [
   },
   {
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id voluptas eos fuga doloribus aspernatur rerum sunt dolores ipsum quis vitae dicta blanditiis corrupti excepturi dolorem quos, minima possimus quasi!',
+      "A Time Tracking Dashboard created with React, TypeScript, Redux and ViteJS based on a Frontendmentor's challenge!",
     language: 'React TS',
     thumbnail: 'timetracking',
     title: 'Time Tracking Dashboard',

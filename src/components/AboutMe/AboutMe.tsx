@@ -3,7 +3,6 @@ import { Container, Bio } from './styles'
 
 // assets
 import ProfilePicture from '../../assets/images/profile-pic.webp'
-import { Button } from '../Button/Button'
 import { FaLinkedin, FaGithub } from 'react-icons/fa'
 
 export function AboutMe() {
@@ -38,7 +37,14 @@ export function AboutMe() {
             goals.
           </p>
           <div className="resume-social">
-            <Button text="Resumé" />
+            <a
+              className="link"
+              href="https://docs.google.com/document/d/1j8gyBn0wBx-nWUtVNRD5MEvkPCKCfxRCoMG55dWx_CY/edit?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Resume
+            </a>
             <ul>
               <li>
                 <a
