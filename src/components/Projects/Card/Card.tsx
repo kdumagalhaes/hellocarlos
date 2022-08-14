@@ -2,6 +2,10 @@ import { Container } from './styles'
 
 // assets
 import { FaGithub } from 'react-icons/fa'
+import OneBitHealth from '../../../assets/thumbnails/onebithealth.webp'
+import CoffeeDelivery from '../../../assets/thumbnails/coffee-delivery-screen.webp'
+import TimeTracking from '../../../assets/thumbnails/time-tracking-screen.webp'
+import ToDo from '../../../assets/thumbnails/todo-thumb.webp'
 
 export interface CardProps {
   title: string
@@ -20,9 +24,28 @@ export function Card({
   url,
   repository,
 }: CardProps) {
+  let image = ''
+
+  switch (thumbnail) {
+    case 'coffeedelivery':
+      image = CoffeeDelivery
+      break
+    case 'onebithealth':
+      image = OneBitHealth
+      break
+    case 'timetracking':
+      image = TimeTracking
+      break
+    case 'todo':
+      image = ToDo
+      break
+    default:
+      break
+  }
+
   return (
     <Container>
-      <img src={thumbnail} alt={title} className="thumbnail" />
+      <img src={image} alt={title} className="thumbnail" />
       <div className="wrapper">
         <p className="title">{title}</p>
         <p className="description">{description}</p>
