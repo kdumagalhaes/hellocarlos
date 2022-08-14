@@ -2,14 +2,14 @@ import { SectionTitle } from '../SectionTitle/SectionTitle'
 import { ContactForm, Container, ButtonSubmit } from './styles'
 import emailjs from '@emailjs/browser'
 import React, { useRef } from 'react'
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 export function Contact() {
   const form = useRef<HTMLFormElement>(null)
-  const successNotification = () => toast.success("Success! Thank you for your message!")
-  const errorNotification = () => toast.error("Ops! Something went wrong!")
-
+  const successNotification = () =>
+    toast.success('Success! Thank you for your message!')
+  const errorNotification = () => toast.error('Ops! Something went wrong!')
 
   const sendEmail = (event: React.ChangeEvent<HTMLInputElement>): void => {
     event.preventDefault()
