@@ -6,7 +6,7 @@ import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 
 export function Contact() {
-  const form = useRef<HTMLFormElement | string>('')
+  const form = useRef<HTMLFormElement | null>(null)
   const successNotification = () =>
     toast.success('Success! Thank you for your message!')
   const errorNotification = () => toast.error('Ops! Something went wrong!')
@@ -18,7 +18,7 @@ export function Contact() {
       .sendForm(
         import.meta.env.VITE_YOUR_SERVICE_ID,
         import.meta.env.VITE_OUR_TEMPLATE_ID,
-        form.current,
+        form.current!,
         import.meta.env.VITE_YOUR_PUBLIC_KEY,
       )
       .then(
