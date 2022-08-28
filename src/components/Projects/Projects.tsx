@@ -10,7 +10,7 @@ const projects: CardProps[] = [
     language: 'React TS',
     thumbnail: 'coffeedelivery',
     title: 'Coffee Delivery Ecommerce',
-    url: 'https://github.com/kdumagalhaes/coffee-delivery-ecommerce',
+    url: 'https://coffee-delivery-ecommerce.vercel.app/',
     repository: 'https://github.com/kdumagalhaes/coffee-delivery-ecommerce',
   },
   {
