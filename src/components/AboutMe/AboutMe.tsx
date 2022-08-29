@@ -39,7 +39,7 @@ export function AboutMe() {
           <div className="resume-social">
             <a
               className="link"
-              href="https://docs.google.com/document/d/1j8gyBn0wBx-nWUtVNRD5MEvkPCKCfxRCoMG55dWx_CY/edit?usp=sharing"
+              href="https://drive.google.com/file/d/1TP5-ap0kg_rmWGaplx6linlmZjZZ_1Ef/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
