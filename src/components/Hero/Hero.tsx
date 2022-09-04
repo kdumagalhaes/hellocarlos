@@ -5,8 +5,9 @@ export function Hero() {
     <Container>
       <h2 className="name">Carlos Pereira</h2>
       <p className="bio-description">
-        Graduated in Advertising, Software Development student currently working
-        as <strong>Product Support Engineer</strong> at VTEX.
+        Graduado em Publicidade e propaganda e Análise e desenvolvimento de
+        sistemas, atualmente trabalhando como
+        <strong>Product Support Engineer</strong> pleno, na VTEX.
       </p>
       <div className="buttons-wrapper">
         <a
@@ -17,8 +18,8 @@ export function Hero() {
         >
           Resume
         </a>
-        <a href="#contact" className="link">
-          Contact
+        <a href="#projects" className="link">
+          Projetos
         </a>
       </div>
     </Container>
