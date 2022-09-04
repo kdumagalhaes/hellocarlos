@@ -8,7 +8,7 @@ import { FaLinkedin, FaGithub } from 'react-icons/fa'
 export function AboutMe() {
   return (
     <Container id="about-me">
-      <SectionTitle text="About Me" />
+      <SectionTitle text="Sobre Mim" />
       <Bio>
         <img
           className="profile-pic"
@@ -17,24 +17,27 @@ export function AboutMe() {
         />
         <div className="wrapper">
           <p className="paragraph">
-            Luso-Brazilian professional graduated in Advertising and Software
-            Development, passionate for <strong>Front-end development</strong>.
+            Como Product Support Engineer, sou responsável pela análise, solução
+            de problemas e condução da resolução de problemas do produto
+            enquanto me engajo com todos os níveis da Organização de Suporte,
+            Produto (Gerentes de Produto), Desenvolvimento (Gerentes,
+            Engenheiros de Software), equipes de operações, como uma camada de
+            suporte interna do produto.
           </p>
           <p className="paragraph">
-            I am currently a mid-level Product Support Specialist working on the
-            VTEX IO, VTEX Store Framework, VTEX CMS and SRE at VTEX, which has
-            allowed me to be directly related to the vision and future of our
-            main products, in addition to being in direct contact with Front-end
-            tools such as React Developer Tools, VTEX IO CLI (VTEX Toolbelt),
-            JavaScript, React JS, CSS, and many others.
+            Anteriormente, era responsável pela gestão da equipe de Analistas de
+            Suporte da área de Produto de Lojas Físicas. Como líder, meu papel
+            era garantir o bem-estar e proporcionar o melhor ambiente para a
+            equipe trabalhar com alto desempenho e engajamento. Além disso,
+            também conduzia o planejamento de ações com base em nossas demandas
+            e metas.
           </p>
           <p className="paragraph">
-            Previously, I was responsible for managing the Physical Stores
-            Product Support Analysts team. As a Product Support Leader, my role
-            was to ensure well-being and provide the best environment for the
-            team to work with high performance and engagement. In addition, I
-            also conducted the planning of actions based on our demands and
-            goals.
+            Atualmente sou um Product Support Engineer pleno trabalhando nas
+            soluções VTEX IO, VTEX Store Framework, VTEX CMS e infraestrutura
+            (SRE), o que me permitiu estar diretamente relacionado com a visão e
+            o futuro de nossos principais produtos , além de estar em contato
+            direto com ferramentas Front-end.
           </p>
           <div className="resume-social">
             <a
@@ -43,7 +46,7 @@ export function AboutMe() {
               target="_blank"
               rel="noreferrer"
             >
-              Resume
+              Currículo
             </a>
             <ul>
               <li>

@@ -19,7 +19,7 @@ export function Hero() {
           Currículo
         </a>
         <a href="#projects" className="link">
-          Projetos
+          Veja meus projetos
         </a>
       </div>
     </Container>
