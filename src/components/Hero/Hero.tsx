@@ -7,7 +7,7 @@ export function Hero() {
       <p className="bio-description">
         Graduado em Publicidade e propaganda e Análise e desenvolvimento de
         sistemas, atualmente trabalhando como
-        <strong>Product Support Engineer</strong> pleno, na VTEX.
+        <strong> Product Support Engineer</strong> pleno, na VTEX.
       </p>
       <div className="buttons-wrapper">
         <a
