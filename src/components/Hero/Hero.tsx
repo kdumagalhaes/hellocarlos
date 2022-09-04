@@ -16,7 +16,7 @@ export function Hero() {
           className="link"
           rel="noreferrer"
         >
-          Resume
+          Currículo
         </a>
         <a href="#projects" className="link">
           Projetos

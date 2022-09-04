@@ -11,10 +11,10 @@ export function HeaderNav() {
         <NavMenu>
           <ul className="nav-list">
             <li className="nav-item">
-              <a href="#about-me">about me</a>
+              <a href="#about-me">sobre mim</a>
             </li>
             <li className="nav-item">
-              <a href="#projects">projects</a>
+              <a href="#projects">projetos</a>
             </li>
             <li className="nav-item">
               <a
@@ -22,11 +22,11 @@ export function HeaderNav() {
                 target="_blank"
                 rel="noreferrer"
               >
-                resume
+                currículo
               </a>
             </li>
             <li className="nav-item">
-              <a href="#contact">contact</a>
+              <a href="#contact">contato</a>
             </li>
           </ul>
         </NavMenu>
