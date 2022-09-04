@@ -18,7 +18,7 @@ export function HeaderNav() {
             </li>
             <li className="nav-item">
               <a
-                href="https://drive.google.com/file/d/1TP5-ap0kg_rmWGaplx6linlmZjZZ_1Ef/view?usp=sharing"
+                href="https://drive.google.com/file/d/1S9C7Sui-NtTu1VSGeM-rONIvqXBAfYMV/preview"
                 target="_blank"
                 rel="noreferrer"
               >
