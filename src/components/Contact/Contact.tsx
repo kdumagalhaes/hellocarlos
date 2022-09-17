@@ -7,9 +7,8 @@ import 'react-toastify/dist/ReactToastify.css'
 
 export function Contact() {
   const form = useRef<HTMLFormElement | null>(null)
-  const successNotification = () =>
-    toast.success('Success! Thank you for your message!')
-  const errorNotification = () => toast.error('Ops! Something went wrong!')
+  const successNotification = () => toast.success('Obrigado pela sua mensagem!')
+  const errorNotification = () => toast.error('Ops! Algo deu errado!')
 
   const sendEmail = (event: React.FormEvent<HTMLFormElement>): void => {
     event.preventDefault()
@@ -35,28 +34,28 @@ export function Contact() {
 
   return (
     <Container id="contact">
-      <SectionTitle text="Contact me" />
+      <SectionTitle text="Contato" />
       <ContactForm ref={form} id="contact-form" onSubmit={sendEmail}>
-        <label htmlFor="from_name">Name</label>
+        <label htmlFor="from_name">Nome</label>
         <input type="text" name="from_name" placeholder="John Doe" required />
-        <label htmlFor="from_email">Email</label>
+        <label htmlFor="from_email">E-mail</label>
         <input
           type="email"
           name="from_email"
           placeholder="johndoe@email.com"
           required
         />
-        <label htmlFor="message">Message</label>
+        <label htmlFor="message">Mensagem</label>
         <textarea
           name="message"
           id="message"
           cols={30}
           rows={7}
-          placeholder="Write your message here..."
+          placeholder="Escreva sua mensagem aqui..."
           required
         ></textarea>
         <ButtonSubmit type="submit" form="contact-form">
-          Send email
+          Enviar e-mail
         </ButtonSubmit>
       </ContactForm>
       <ToastContainer />

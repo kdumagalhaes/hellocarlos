@@ -6,7 +6,8 @@ import { Card, CardProps } from './Card/Card'
 
 const projects: CardProps[] = [
   {
-    description: 'A Coffee ecommerce with a functional checkout',
+    description:
+      'Um ecommerce de café com checkout funcional, ainda em desenvolvimento, para treinar conceitos como criação de rotas e Context API.',
     language: 'React TS',
     thumbnail: 'coffeedelivery',
     title: 'Coffee Delivery Ecommerce',
@@ -14,25 +15,27 @@ const projects: CardProps[] = [
     repository: 'https://github.com/kdumagalhaes/coffee-delivery-ecommerce',
   },
   {
-    description: 'A To do application made with React + TypeScript and Vite.',
-    language: 'React TS',
-    thumbnail: 'todo',
-    title: 'ToDo',
-    url: 'https://to-do-react-coral.vercel.app/',
-    repository: 'https://github.com/kdumagalhaes/to-do-react',
+    description:
+      'Um dashboard utilizando conceitos de grid display com troca de tema controlada pelo usuário.',
+    language: 'React JS',
+    thumbnail: 'dashboard',
+    title: 'Social Media Dashboard',
+    url: 'https://social-media-dashboard-red.vercel.app/',
+    repository:
+      'https://github.com/kdumagalhaes/social-media-dashboard-reactjs',
   },
   {
     description:
-      "The OneBitHealth app calculates your IMC! It was made based on One Bit Code's RN beginner course!",
-    language: 'React Native',
-    thumbnail: 'onebithealth',
-    title: 'OneBitHealth',
-    url: '#',
-    repository: 'https://github.com/kdumagalhaes/onebithealth',
+      'Um encurtador de URL em VUE Js, utilizando VueX para contexto e a API do Bit.ly.',
+    language: 'Vue',
+    thumbnail: 'encurtador',
+    title: 'Encurtador de URL',
+    url: 'https://link-shortener-vue.vercel.app/',
+    repository: 'https://github.com/kdumagalhaes/link-shortener-vue',
   },
   {
     description:
-      "A Time Tracking Dashboard created with React, TypeScript, Redux and ViteJS based on a Frontendmentor's challenge!",
+      'Um dashboard de acompanhamento de tempo criado usando React, TypeScript, Redux e Vite baseado em um desafio do Frontendmentor.',
     language: 'React TS',
     thumbnail: 'timetracking',
     title: 'Time Tracking Dashboard',
@@ -44,7 +47,7 @@ const projects: CardProps[] = [
 export function Projects() {
   return (
     <Container id="projects">
-      <SectionTitle text="Projects" />
+      <SectionTitle text="Projetos" />
       <ProjectsGrid>
         {projects.map((project) => {
           return (

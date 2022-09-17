@@ -5,8 +5,8 @@ export function Footer() {
     <Container>
       <footer>
         <p>
-          Made by me, using <strong>React</strong> + <strong>TypeScript</strong>{' '}
-          :)
+          Desenvolvido por mim, usando <strong>React</strong> +{' '}
+          <strong>TypeScript</strong> :)
         </p>
       </footer>
     </Container>

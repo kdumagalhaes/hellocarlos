@@ -47,7 +47,7 @@ export const Bio = styled.div`
   }
 
   .resume-social {
-    margin-top: 2.5rem;
+    margin-top: 2rem;
     display: flex;
     align-items: center;
     gap: 2rem;

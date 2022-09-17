@@ -2,10 +2,10 @@ import { Container } from './styles'
 
 // assets
 import { FaGithub } from 'react-icons/fa'
-import OneBitHealth from '../../../assets/thumbnails/onebithealth.webp'
+import Encurtador from '../../../assets/thumbnails/encurtador.webp'
 import CoffeeDelivery from '../../../assets/thumbnails/coffee-delivery-screen.webp'
 import TimeTracking from '../../../assets/thumbnails/time-tracking-screen.webp'
-import ToDo from '../../../assets/thumbnails/todo-thumb.webp'
+import Dashboard from '../../../assets/thumbnails/dashboard.webp'
 
 export interface CardProps {
   title: string
@@ -30,14 +30,14 @@ export function Card({
     case 'coffeedelivery':
       image = CoffeeDelivery
       break
-    case 'onebithealth':
-      image = OneBitHealth
+    case 'encurtador':
+      image = Encurtador
       break
     case 'timetracking':
       image = TimeTracking
       break
-    case 'todo':
-      image = ToDo
+    case 'dashboard':
+      image = Dashboard
       break
     default:
       break
