@@ -17,6 +17,13 @@ export function AboutMe() {
         />
         <div className="wrapper">
           <p className="paragraph">
+            Atualmente trabalho nas soluções VTEX IO, VTEX Store Framework, VTEX
+            CMS e infraestrutura (SRE), o que me permite estar diretamente
+            relacionado com a visão e o futuro de nossos principais produtos,
+            além de estar em contato direto com ferramentas de desenvolvimento
+            Front-end como React, Typescript, Javascript, CSS, entre outros.
+          </p>
+          <p className="paragraph">
             Como Product Support Engineer, sou responsável pela análise, solução
             de problemas e condução da resolução de problemas do produto
             enquanto me engajo com todos os níveis da Organização de Suporte,
@@ -31,13 +38,6 @@ export function AboutMe() {
             equipe trabalhar com alto desempenho e engajamento. Além disso,
             também conduzia o planejamento de ações com base em nossas demandas
             e metas.
-          </p>
-          <p className="paragraph">
-            Atualmente sou um Product Support Engineer pleno trabalhando nas
-            soluções VTEX IO, VTEX Store Framework, VTEX CMS e infraestrutura
-            (SRE), o que me permitiu estar diretamente relacionado com a visão e
-            o futuro de nossos principais produtos, além de estar em contato
-            direto com ferramentas Front-end.
           </p>
           <div className="resume-social">
             <a
