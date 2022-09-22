@@ -7,7 +7,7 @@ import { Card, CardProps } from './Card/Card'
 const projects: CardProps[] = [
   {
     description:
-      'Um ecommerce de café com checkout funcional, ainda em desenvolvimento, para treinar conceitos como criação de rotas e Context API.',
+      'Um ecommerce de café com checkout funcional, para treinar conceitos como criação de rotas e Context API.',
     language: 'React TS',
     thumbnail: 'coffeedelivery',
     title: 'Coffee Delivery Ecommerce',
