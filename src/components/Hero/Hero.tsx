@@ -1,13 +1,12 @@
 import { Container } from './styles'
+import { Translator } from '../i18n/Translator/Translator'
 
 export function Hero() {
   return (
     <Container>
       <h2 className="name">Carlos Pereira</h2>
       <p className="bio-description">
-        Graduado em Publicidade e propaganda e Análise e desenvolvimento de
-        sistemas, atualmente trabalhando como
-        <strong> Product Support Engineer</strong> pleno, na VTEX.
+        <Translator path="hero.message" />
       </p>
       <div className="buttons-wrapper">
         <a

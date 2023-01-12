@@ -1,4 +1,4 @@
-import { LanguageSwitcher } from '../LanguageSwitcher/LanguageSwitcher'
+import { LanguageSwitcher } from '../i18n/LanguageSwitcher/LanguageSwitcher'
 import { Container, Header, Logo, NavMenu } from './styles'
 
 export function HeaderNav() {
