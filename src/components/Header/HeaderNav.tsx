@@ -1,4 +1,5 @@
 import { LanguageSwitcher } from '../i18n/LanguageSwitcher/LanguageSwitcher'
+import { Translator } from '../i18n/Translator/Translator'
 import { Container, Header, Logo, NavMenu } from './styles'
 
 export function HeaderNav() {
@@ -12,10 +13,14 @@ export function HeaderNav() {
         <NavMenu>
           <ul className="nav-list">
             <li className="nav-item">
-              <a href="#about-me">sobre mim</a>
+              <a href="#about-me">
+                <Translator path="header.navAboutMe" />
+              </a>
             </li>
             <li className="nav-item">
-              <a href="#projects">projetos</a>
+              <a href="#projects">
+                <Translator path="header.navProjects" />
+              </a>
             </li>
             <li className="nav-item">
               <a
@@ -23,11 +28,13 @@ export function HeaderNav() {
                 target="_blank"
                 rel="noreferrer"
               >
-                currículo
+                <Translator path="header.navResume" />
               </a>
             </li>
             <li className="nav-item">
-              <a href="#contact">contato</a>
+              <a href="#contact">
+                <Translator path="header.navContact" />
+              </a>
             </li>
           </ul>
         </NavMenu>
