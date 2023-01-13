@@ -15,10 +15,10 @@ export function Hero() {
           className="link"
           rel="noreferrer"
         >
-          Currículo
+          <Translator path="hero.btnResume" />
         </a>
         <a href="#projects" className="link">
-          Meus projetos
+          <Translator path="hero.btnProjects" />
         </a>
       </div>
     </Container>
