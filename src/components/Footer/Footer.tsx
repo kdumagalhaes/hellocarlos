@@ -1,3 +1,4 @@
+import { Translator } from '../i18n/Translator/Translator'
 import { Container } from './styles'
 
 export function Footer() {
@@ -5,7 +6,7 @@ export function Footer() {
     <Container>
       <footer>
         <p>
-          Desenvolvido por mim, usando <strong>React</strong> +{' '}
+          <Translator path="footer.text" /> <strong>React</strong> +{' '}
           <strong>TypeScript</strong> :)
         </p>
       </footer>

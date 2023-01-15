@@ -44,5 +44,8 @@ export default {
       },
       sendEmailBtn: 'Send email',
     },
+    footer: {
+      text: 'Developed by me, using',
+    },
   },
 }

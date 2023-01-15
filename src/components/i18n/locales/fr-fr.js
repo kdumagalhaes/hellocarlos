@@ -36,5 +36,8 @@ export default {
       },
       sendEmailBtn: 'Envoyer email',
     },
+    footer: {
+      text: 'Développé par moi, en utilisant',
+    },
   },
 }
