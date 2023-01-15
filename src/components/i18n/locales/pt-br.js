@@ -12,5 +12,15 @@ export default {
       navResume: 'currículo',
       navContact: 'contato',
     },
+    aboutMe: {
+      title: 'Sobre Mim',
+      firstParagraph:
+        'Atualmente trabalho nas soluções VTEX IO, VTEX Store Framework, VTEX CMS e infraestrutura (SRE), o que me permite estar diretamente relacionado com a visão e o futuro de nossos principais produtos, além de estar em contato direto com ferramentas de desenvolvimento Front-end como React, Typescript, Javascript, CSS, entre outros.',
+      secondParagraph:
+        'Como Product Support Engineer, sou responsável pela análise, solução de problemas e condução da resolução de problemas do produto enquanto me engajo com todos os níveis da Organização de Suporte, Produto (Gerentes de Produto), Desenvolvimento (Gerentes, Engenheiros de Software), equipes de operações, como uma camada de suporte interna do produto.',
+      thirdParagraph:
+        'Anteriormente, era responsável pela gestão da equipe de Analistas de Suporte da área de Produto de Lojas Físicas. Como líder, meu papel era garantir o bem-estar e proporcionar o melhor ambiente para a equipe trabalhar com alto desempenho e engajamento. Além disso, também conduzia o planejamento de ações com base em nossas demandas e metas.',
+      resumeBtn: 'Currículo',
+    },
   },
 }
