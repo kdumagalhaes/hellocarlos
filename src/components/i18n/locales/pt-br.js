@@ -22,5 +22,18 @@ export default {
         'Anteriormente, era responsável pela gestão da equipe de Analistas de Suporte da área de Produto de Lojas Físicas. Como líder, meu papel era garantir o bem-estar e proporcionar o melhor ambiente para a equipe trabalhar com alto desempenho e engajamento. Além disso, também conduzia o planejamento de ações com base em nossas demandas e metas.',
       resumeBtn: 'Currículo',
     },
+    projects: {
+      title: 'Projetos',
+      cards: {
+        cardDescription1:
+          'Um ecommerce de café com checkout funcional, para treinar conceitos como criação de rotas e Context API.',
+        cardDescription2:
+          'Um dashboard utilizando conceitos de grid display com troca de tema controlada pelo usuário.',
+        cardDescription3:
+          'Um encurtador de URL em VUE Js, utilizando VueX para contexto e a API do Bit.ly.',
+        cardDescription4:
+          'Um dashboard de acompanhamento de tempo criado usando React, TypeScript, Redux e Vite baseado em um desafio do Frontendmentor.',
+      },
+    },
   },
 }

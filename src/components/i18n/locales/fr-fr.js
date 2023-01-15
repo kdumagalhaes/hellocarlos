@@ -18,5 +18,14 @@ export default {
       thirdParagraph: `Auparavant, il était responsable de la gestion de l'équipe d'analystes de support dans le domaine des produits des magasins physiques. En tant que leader, mon rôle était d'assurer le bien-être et de fournir le meilleur environnement pour que l'équipe travaille avec un haut niveau de performance et d'engagement. De plus, j'ai également mené une planification des actions en fonction de nos demandes et de nos objectifs.`,
       resumeBtn: 'Resumè',
     },
+    projects: {
+      title: 'Projets',
+      cards: {
+        cardDescription1: `Un café ecommerce avec caisse fonctionnelle, pour former des concepts tels que la création d'itinéraire et l'API Context.`,
+        cardDescription2: `Un tableau de bord utilisant des concepts d'affichage en grille avec changement de thème contrôlé par l'utilisateur.`,
+        cardDescription3: `Un raccourcisseur d'URL dans VUE Js, utilisant VueX pour le contexte et l'API Bit.ly.`,
+        cardDescription4: `Un tableau de bord de suivi du temps créé à l'aide de React, TypeScript, Redux et Vite basé sur un défi Frontendmentor.`,
+      },
+    },
   },
 }
