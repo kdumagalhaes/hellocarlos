@@ -22,5 +22,18 @@ export default {
         'Previously, he was responsible for managing the team of Support Analysts in the Physical Stores Product area. As a leader, my role was to ensure well-being and provide the best environment for the team to work with high performance and engagement. In addition, I also conducted action planning based on our demands and goals.',
       resumeBtn: 'Resume',
     },
+    projects: {
+      title: 'Projects',
+      cards: {
+        cardDescription1:
+          'A coffee ecommerce with functional checkout, to train concepts such as route creation and Context API.',
+        cardDescription2:
+          'A dashboard using grid display concepts with user-controlled theme switching.',
+        cardDescription3:
+          'A URL shortener in VUE Js, using VueX for context and the Bit.ly API.',
+        cardDescription4:
+          'A time tracking dashboard created using React, TypeScript, Redux and Vite based on a Frontendmentor challenge.',
+      },
+    },
   },
 }

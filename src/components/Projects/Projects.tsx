@@ -3,11 +3,11 @@ import { Container, ProjectsGrid } from './styles'
 
 // components
 import { Card, CardProps } from './Card/Card'
+import { useTranslation } from 'react-i18next'
 
 const projects: CardProps[] = [
   {
-    description:
-      'Um ecommerce de café com checkout funcional, para treinar conceitos como criação de rotas e Context API.',
+    description: 'projects.cards.cardDescription1',
     language: 'React TS',
     thumbnail: 'coffeedelivery',
     title: 'Coffee Delivery Ecommerce',
@@ -15,8 +15,7 @@ const projects: CardProps[] = [
     repository: 'https://github.com/kdumagalhaes/coffee-delivery-ecommerce',
   },
   {
-    description:
-      'Um dashboard utilizando conceitos de grid display com troca de tema controlada pelo usuário.',
+    description: 'projects.cards.cardDescription2',
     language: 'React JS',
     thumbnail: 'dashboard',
     title: 'Social Media Dashboard',
@@ -25,8 +24,7 @@ const projects: CardProps[] = [
       'https://github.com/kdumagalhaes/social-media-dashboard-reactjs',
   },
   {
-    description:
-      'Um encurtador de URL em VUE Js, utilizando VueX para contexto e a API do Bit.ly.',
+    description: 'projects.cards.cardDescription3',
     language: 'Vue',
     thumbnail: 'encurtador',
     title: 'Encurtador de URL',
@@ -34,8 +32,7 @@ const projects: CardProps[] = [
     repository: 'https://github.com/kdumagalhaes/link-shortener-vue',
   },
   {
-    description:
-      'Um dashboard de acompanhamento de tempo criado usando React, TypeScript, Redux e Vite baseado em um desafio do Frontendmentor.',
+    description: 'projects.cards.cardDescription4',
     language: 'React TS',
     thumbnail: 'timetracking',
     title: 'Time Tracking Dashboard',
@@ -45,16 +42,18 @@ const projects: CardProps[] = [
 ]
 
 export function Projects() {
+  const { t } = useTranslation()
+
   return (
     <Container id="projects">
-      <SectionTitle text="Projetos" />
+      <SectionTitle text="projects.title" />
       <ProjectsGrid>
         {projects.map((project) => {
           return (
             <Card
               key={project.title}
               title={project.title}
-              description={project.description}
+              description={t(project.description)}
               language={project.language}
               thumbnail={project.thumbnail}
               url={`${project.url}`}
