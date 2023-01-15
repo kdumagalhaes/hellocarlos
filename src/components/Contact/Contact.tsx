@@ -4,6 +4,7 @@ import emailjs from '@emailjs/browser'
 import React, { useRef } from 'react'
 import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
+import { Translator } from '../i18n/Translator/Translator'
 
 export function Contact() {
   const form = useRef<HTMLFormElement | null>(null)
@@ -34,18 +35,24 @@ export function Contact() {
 
   return (
     <Container id="contact">
-      <SectionTitle text="Contato" />
+      <SectionTitle text="contact.title" />
       <ContactForm ref={form} id="contact-form" onSubmit={sendEmail}>
-        <label htmlFor="from_name">Nome</label>
+        <label htmlFor="from_name">
+          <Translator path="contact.form.nameLable" />
+        </label>
         <input type="text" name="from_name" placeholder="John Doe" required />
-        <label htmlFor="from_email">E-mail</label>
+        <label htmlFor="from_email">
+          <Translator path="contact.form.emailLable" />
+        </label>
         <input
           type="email"
           name="from_email"
           placeholder="johndoe@email.com"
           required
         />
-        <label htmlFor="message">Mensagem</label>
+        <label htmlFor="message">
+          <Translator path="contact.form.messageLable" />
+        </label>
         <textarea
           name="message"
           id="message"
@@ -55,7 +62,7 @@ export function Contact() {
           required
         ></textarea>
         <ButtonSubmit type="submit" form="contact-form">
-          Enviar e-mail
+          <Translator path="contact.sendEmailBtn" />
         </ButtonSubmit>
       </ContactForm>
       <ToastContainer />
