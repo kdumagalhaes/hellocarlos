@@ -4,11 +4,12 @@ import { Container, Bio } from './styles'
 // assets
 import ProfilePicture from '../../assets/images/profile-pic.webp'
 import { FaLinkedin, FaGithub } from 'react-icons/fa'
+import { Translator } from '../i18n/Translator/Translator'
 
 export function AboutMe() {
   return (
     <Container id="about-me">
-      <SectionTitle text="Sobre Mim" />
+      <SectionTitle text="aboutMe.title" />
       <Bio>
         <img
           className="profile-pic"
@@ -17,27 +18,13 @@ export function AboutMe() {
         />
         <div className="wrapper">
           <p className="paragraph">
-            Atualmente trabalho nas soluções VTEX IO, VTEX Store Framework, VTEX
-            CMS e infraestrutura (SRE), o que me permite estar diretamente
-            relacionado com a visão e o futuro de nossos principais produtos,
-            além de estar em contato direto com ferramentas de desenvolvimento
-            Front-end como React, Typescript, Javascript, CSS, entre outros.
+            <Translator path="aboutMe.firstParagraph" />
           </p>
           <p className="paragraph">
-            Como Product Support Engineer, sou responsável pela análise, solução
-            de problemas e condução da resolução de problemas do produto
-            enquanto me engajo com todos os níveis da Organização de Suporte,
-            Produto (Gerentes de Produto), Desenvolvimento (Gerentes,
-            Engenheiros de Software), equipes de operações, como uma camada de
-            suporte interna do produto.
+            <Translator path="aboutMe.secondParagraph" />
           </p>
           <p className="paragraph">
-            Anteriormente, era responsável pela gestão da equipe de Analistas de
-            Suporte da área de Produto de Lojas Físicas. Como líder, meu papel
-            era garantir o bem-estar e proporcionar o melhor ambiente para a
-            equipe trabalhar com alto desempenho e engajamento. Além disso,
-            também conduzia o planejamento de ações com base em nossas demandas
-            e metas.
+            <Translator path="aboutMe.thirdParagraph" />
           </p>
           <div className="resume-social">
             <a
@@ -46,7 +33,7 @@ export function AboutMe() {
               target="_blank"
               rel="noreferrer"
             >
-              Currículo
+              <Translator path="aboutMe.resumeBtn" />
             </a>
             <ul>
               <li>

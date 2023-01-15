@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next'
 import { Bar, Container, Title } from './styles'
 
 interface SectionTitleProps {
@@ -5,9 +6,11 @@ interface SectionTitleProps {
 }
 
 export function SectionTitle({ text }: SectionTitleProps) {
+  const { t } = useTranslation()
+
   return (
     <Container>
-      <Title>{text}</Title>
+      <Title>{t(text)}</Title>
       <Bar />
     </Container>
   )
