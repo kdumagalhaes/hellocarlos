@@ -14,26 +14,18 @@ export function LanguageSwitcher() {
 
   useEffect(() => {
     language ? i18n.changeLanguage(language) : i18n.changeLanguage('')
-  }, [language, i18n])
-
-  useEffect(() => {
     const localeSetInLocalStorage = localStorage.getItem('i18nextLng')
+
     if (localeSetInLocalStorage) {
       setLocale(localeSetInLocalStorage)
     }
-  }, [])
+  }, [language, i18n])
 
   return (
-    <Select onChange={handleSelection}>
-      <option value="pt-BR" selected={locale === 'pt-BR'}>
-        PT
-      </option>
-      <option value="en-US" selected={locale === 'en-US'}>
-        EN
-      </option>
-      <option value="fr-FR" selected={locale === 'fr-FR'}>
-        FR
-      </option>
+    <Select onChange={handleSelection} value={locale}>
+      <option value="pt-BR">PT</option>
+      <option value="en-US">EN</option>
+      <option value="fr-FR">FR</option>
     </Select>
   )
 }
