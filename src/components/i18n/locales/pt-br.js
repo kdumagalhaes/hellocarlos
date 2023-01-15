@@ -35,5 +35,14 @@ export default {
           'Um dashboard de acompanhamento de tempo criado usando React, TypeScript, Redux e Vite baseado em um desafio do Frontendmentor.',
       },
     },
+    contact: {
+      title: 'Contato',
+      form: {
+        nameLable: 'Nome',
+        emailLable: 'E-mail',
+        messageLable: 'Mensagem',
+      },
+      sendEmailBtn: 'Enviar e-mail',
+    },
   },
 }

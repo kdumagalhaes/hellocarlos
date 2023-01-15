@@ -27,5 +27,14 @@ export default {
         cardDescription4: `Un tableau de bord de suivi du temps créé à l'aide de React, TypeScript, Redux et Vite basé sur un défi Frontendmentor.`,
       },
     },
+    contact: {
+      title: 'Contact',
+      form: {
+        nameLable: 'Nom',
+        emailLable: 'Email',
+        messageLable: 'Message',
+      },
+      sendEmailBtn: 'Envoyer email',
+    },
   },
 }

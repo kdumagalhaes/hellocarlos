@@ -35,5 +35,14 @@ export default {
           'A time tracking dashboard created using React, TypeScript, Redux and Vite based on a Frontendmentor challenge.',
       },
     },
+    contact: {
+      title: 'Contact',
+      form: {
+        nameLable: 'Name',
+        emailLable: 'Email',
+        messageLable: 'Message',
+      },
+      sendEmailBtn: 'Send email',
+    },
   },
 }
