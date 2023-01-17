@@ -30,7 +30,7 @@ export default {
         cardDescription2:
           'Um dashboard utilizando conceitos de grid display com troca de tema controlada pelo usuário.',
         cardDescription3:
-          'Um encurtador de URL em VUE Js, utilizando VueX para contexto e a API do Bit.ly.',
+          'Um formulário de cartão de crédito interativo feito com React + TypeScript.',
         cardDescription4:
           'Um dashboard de acompanhamento de tempo criado usando React, TypeScript, Redux e Vite baseado em um desafio do Frontendmentor.',
       },

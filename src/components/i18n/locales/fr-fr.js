@@ -23,7 +23,7 @@ export default {
       cards: {
         cardDescription1: `Un café ecommerce avec caisse fonctionnelle, pour former des concepts tels que la création d'itinéraire et l'API Context.`,
         cardDescription2: `Un tableau de bord utilisant des concepts d'affichage en grille avec changement de thème contrôlé par l'utilisateur.`,
-        cardDescription3: `Un raccourcisseur d'URL dans VUE Js, utilisant VueX pour le contexte et l'API Bit.ly.`,
+        cardDescription3: `Un formulaire de carte de crédit interactif réalisé avec React + TypeScript.`,
         cardDescription4: `Un tableau de bord de suivi du temps créé à l'aide de React, TypeScript, Redux et Vite basé sur un défi Frontendmentor.`,
       },
     },

@@ -25,11 +25,11 @@ const projects: CardProps[] = [
   },
   {
     description: 'projects.cards.cardDescription3',
-    language: 'Vue',
-    thumbnail: 'encurtador',
-    title: 'Encurtador de URL',
-    url: 'https://link-shortener-vue.vercel.app/',
-    repository: 'https://github.com/kdumagalhaes/link-shortener-vue',
+    language: 'React TS',
+    thumbnail: 'card-form',
+    title: 'Interactive Credit Card Form',
+    url: 'https://interactive-card-details-form-liard.vercel.app/',
+    repository: 'https://github.com/kdumagalhaes/interactive-card-details-form',
   },
   {
     description: 'projects.cards.cardDescription4',

@@ -2,7 +2,7 @@ import { Container } from './styles'
 
 // assets
 import { FaGithub } from 'react-icons/fa'
-import Encurtador from '../../../assets/thumbnails/encurtador.webp'
+import CardForm from '../../../assets/thumbnails/card-form.webp'
 import CoffeeDelivery from '../../../assets/thumbnails/coffee-delivery-screen.webp'
 import TimeTracking from '../../../assets/thumbnails/time-tracking-screen.webp'
 import Dashboard from '../../../assets/thumbnails/dashboard.webp'
@@ -30,8 +30,8 @@ export function Card({
     case 'coffeedelivery':
       image = CoffeeDelivery
       break
-    case 'encurtador':
-      image = Encurtador
+    case 'card-form':
+      image = CardForm
       break
     case 'timetracking':
       image = TimeTracking
