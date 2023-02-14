@@ -4,7 +4,7 @@ import { Container } from './styles'
 import { FaGithub } from 'react-icons/fa'
 import CardForm from '../../../assets/thumbnails/card-form.webp'
 import CoffeeDelivery from '../../../assets/thumbnails/coffee-delivery-screen.webp'
-import TimeTracking from '../../../assets/thumbnails/time-tracking-screen.webp'
+import PokeList from '../../../assets/thumbnails/pokelist.webp'
 import GitHubBlog from '../../../assets/thumbnails/github-blog.webp'
 
 export interface CardProps {
@@ -33,8 +33,8 @@ export function Card({
     case 'card-form':
       image = CardForm
       break
-    case 'timetracking':
-      image = TimeTracking
+    case 'pokelist':
+      image = PokeList
       break
     case 'github-blog':
       image = GitHubBlog

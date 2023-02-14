@@ -32,7 +32,7 @@ export default {
         cardDescription3:
           'Um formulário de cartão de crédito interativo feito com React + TypeScript.',
         cardDescription4:
-          'Um dashboard de acompanhamento de tempo criado usando React, TypeScript, Redux e Vite baseado em um desafio do Frontendmentor.',
+          'O PokéList é um pequeno aplicativo feito em React + TypeScript que lista os Pokémons com base na API pokeapi.co e permite que o usuário os adicione aos favoritos.',
       },
     },
     contact: {

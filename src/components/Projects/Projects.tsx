@@ -33,10 +33,10 @@ const projects: CardProps[] = [
   {
     description: 'projects.cards.cardDescription4',
     language: 'React TS',
-    thumbnail: 'timetracking',
-    title: 'Time Tracking Dashboard',
-    url: 'https://time-tracking-dashboard-react-ochre.vercel.app/',
-    repository: 'https://github.com/kdumagalhaes/time-tracking-dashboard-react',
+    thumbnail: 'pokelist',
+    title: 'PokéList',
+    url: 'https://pokelist-one.vercel.app/',
+    repository: 'https://github.com/kdumagalhaes/pokelist',
   },
 ]
 
