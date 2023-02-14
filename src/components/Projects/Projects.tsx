@@ -16,12 +16,11 @@ const projects: CardProps[] = [
   },
   {
     description: 'projects.cards.cardDescription2',
-    language: 'React JS',
-    thumbnail: 'dashboard',
-    title: 'Social Media Dashboard',
-    url: 'https://social-media-dashboard-red.vercel.app/',
-    repository:
-      'https://github.com/kdumagalhaes/social-media-dashboard-reactjs',
+    language: 'React TS',
+    thumbnail: 'github-blog',
+    title: 'GitHub Blog',
+    url: 'https://github-blog-self.vercel.app/',
+    repository: 'https://github.com/kdumagalhaes/github-blog',
   },
   {
     description: 'projects.cards.cardDescription3',

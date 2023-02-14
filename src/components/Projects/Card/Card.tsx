@@ -5,7 +5,7 @@ import { FaGithub } from 'react-icons/fa'
 import CardForm from '../../../assets/thumbnails/card-form.webp'
 import CoffeeDelivery from '../../../assets/thumbnails/coffee-delivery-screen.webp'
 import TimeTracking from '../../../assets/thumbnails/time-tracking-screen.webp'
-import Dashboard from '../../../assets/thumbnails/dashboard.webp'
+import GitHubBlog from '../../../assets/thumbnails/github-blog.webp'
 
 export interface CardProps {
   title: string
@@ -36,8 +36,8 @@ export function Card({
     case 'timetracking':
       image = TimeTracking
       break
-    case 'dashboard':
-      image = Dashboard
+    case 'github-blog':
+      image = GitHubBlog
       break
     default:
       break

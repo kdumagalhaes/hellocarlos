@@ -22,7 +22,7 @@ export default {
       title: 'Projets',
       cards: {
         cardDescription1: `Un café ecommerce avec caisse fonctionnelle, pour former des concepts tels que la création d'itinéraire et l'API Context.`,
-        cardDescription2: `Un tableau de bord utilisant des concepts d'affichage en grille avec changement de thème contrôlé par l'utilisateur.`,
+        cardDescription2: `Une application qui utilise l'API GitHub pour récupérer les problèmes d'un référentiel, les données de mon profil d'utilisateur et les afficher sous forme de blog. Avec les techniques SWR et debounce.`,
         cardDescription3: `Un formulaire de carte de crédit interactif réalisé avec React + TypeScript.`,
         cardDescription4: `Un tableau de bord de suivi du temps créé à l'aide de React, TypeScript, Redux et Vite basé sur un défi Frontendmentor.`,
       },

@@ -28,7 +28,7 @@ export default {
         cardDescription1:
           'A coffee ecommerce with functional checkout, to train concepts such as route creation and Context API.',
         cardDescription2:
-          'A dashboard using grid display concepts with user-controlled theme switching.',
+          'An application that uses the GitHub API to fetch issues from a repository, data from my user profile and display them as a blog. With SWR and debounce techniques.',
         cardDescription3:
           'An interactive credit card form made with React + TypeScript.',
         cardDescription4:
