@@ -25,8 +25,8 @@ export const Bio = styled.div`
   }
 
   .profile-pic {
-    max-width: 19rem;
-    max-height: 28.5rem;
+    max-width: 17rem;
+    max-height: 26.5rem;
     border-radius: 6px;
   }
 
