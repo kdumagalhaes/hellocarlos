@@ -13,9 +13,9 @@ export default {
     },
     aboutMe: {
       title: 'Sur Moi',
-      firstParagraph: `Je travaille actuellement sur les solutions VTEX IO, VTEX Store Framework, VTEX CMS et infrastructure (SRE), ce qui me permet d'être directement lié à la vision et à l'avenir de nos principaux produits, en plus d'être en contact direct avec les outils de développement Front-end tels que React, Typescript, Javascript, CSS, entre autres.`,
-      secondParagraph: `En tant qu'ingénieur de support produit, je suis responsable de l'analyse, du dépannage et de la résolution des produits tout en m'engageant avec tous les niveaux de l'organisation de support, du produit (chefs de produit), du développement (responsables, ingénieurs logiciels), des opérations, en tant que couche de support interne du produit.`,
-      thirdParagraph: `Auparavant, il était responsable de la gestion de l'équipe d'analystes de support dans le domaine des produits des magasins physiques. En tant que leader, mon rôle était d'assurer le bien-être et de fournir le meilleur environnement pour que l'équipe travaille avec un haut niveau de performance et d'engagement. De plus, j'ai également mené une planification des actions en fonction de nos demandes et de nos objectifs.`,
+      firstParagraph: `Actuellement, je travaille avec les technologies Frontend les plus tendances avec un focus sur JavaScript/TypeScript, l'outil que je maîtrise le plus est ReactJS, mais je m'intéresse aussi à d'autres comme VueJS.`,
+      secondParagraph: `Mon objectif est de créer et de maintenir des applications Web qui facilitent la vie des gens, en mettant toujours l'accent sur l'accessibilité, en plus de continuer à en apprendre davantage sur la façon d'offrir la meilleure expérience utilisateur en travaillant avec mon équipe.`,
+      thirdParagraph: `Auparavant, j'ai travaillé comme ingénieur de support produit chez VTEX (la plus grande société de commerce en nuage d'Amérique latine), étant responsable de l'analyse et de la résolution des problèmes liés à certains produits VTEX, le principal étant le VTEX Store Framework, où j'ai travaillé sur la résolution de front -fin des problèmes des gros e-commerces.`,
       resumeBtn: 'Resumè',
     },
     projects: {
