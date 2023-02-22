@@ -15,11 +15,11 @@ export default {
     aboutMe: {
       title: 'Sobre Mim',
       firstParagraph:
-        'Atualmente trabalho nas soluções VTEX IO, VTEX Store Framework, VTEX CMS e infraestrutura (SRE), o que me permite estar diretamente relacionado com a visão e o futuro de nossos principais produtos, além de estar em contato direto com ferramentas de desenvolvimento Front-end como React, Typescript, Javascript, CSS, entre outros.',
+        'Atualmente, trabalho com as tecnologias Frontend mais populares com foco em JavaScript / TypeScript, minha principal ferramenta de atuação é o ReactJS, mas também me interesso por outras como o VueJS.',
       secondParagraph:
-        'Como Product Support Engineer, sou responsável pela análise, solução de problemas e condução da resolução de problemas do produto enquanto me engajo com todos os níveis da Organização de Suporte, Produto (Gerentes de Produto), Desenvolvimento (Gerentes, Engenheiros de Software), equipes de operações, como uma camada de suporte interna do produto.',
+        'O meu objetivo é construir e manter aplicações web que facilitam a vida das pessoas sempre com foco em acessibilidade, além de continuar aprendendo mais sobre como entregar a melhor experiência para o usuário através de um trabalho em conjunto com a minha equipa.',
       thirdParagraph:
-        'Anteriormente, era responsável pela gestão da equipe de Analistas de Suporte da área de Produto de Lojas Físicas. Como líder, meu papel era garantir o bem-estar e proporcionar o melhor ambiente para a equipe trabalhar com alto desempenho e engajamento. Além disso, também conduzia o planejamento de ações com base em nossas demandas e metas.',
+        'Anteriormente, trabalhava como Product Support Engineer na VTEX (a maior empresa de Cloud Commerce da América Latina), sendo responsável pela análise e resolução de problemas relacionados a alguns produtos da VTEX, sendo o principal deles o VTEX Store Framework, onde atuava na resolução de problemas de front-end de grandes e-commerces.',
       resumeBtn: 'Currículo',
     },
     projects: {
