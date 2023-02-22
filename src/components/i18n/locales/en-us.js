@@ -15,11 +15,10 @@ export default {
     aboutMe: {
       title: 'About me',
       firstParagraph:
-        'I currently work on VTEX IO, VTEX Store Framework, VTEX CMS and infrastructure (SRE) solutions, which allows me to be directly related to the vision and future of our main products, in addition to being in direct contact with Front-end development tools such as React, Typescript, Javascript, CSS, among others.',
-      secondParagraph:
-        'As a Product Support Engineer, I am responsible for analyzing, troubleshooting and driving product issue resolution while engaging with all levels of the Support Organization, Product (Product Managers), Development (Managers, Software Engineers), of operations, as an internal support layer of the product.',
+        'Currently, I work with the most trending Frontend technologies with a focus on JavaScript / TypeScript, the tool I master the most is ReactJS, but I am also interested in others like VueJS.',
+      secondParagraph: `My goal is to build and maintain web applications that make people's lives easier, always focusing on accessibility, in addition to continuing to learn more about how to deliver the best user experience through working together with my team.`,
       thirdParagraph:
-        'Previously, he was responsible for managing the team of Support Analysts in the Physical Stores Product area. As a leader, my role was to ensure well-being and provide the best environment for the team to work with high performance and engagement. In addition, I also conducted action planning based on our demands and goals.',
+        'Previously, I worked as a Product Support Engineer at VTEX (the biggest Cloud Commerce company in Latin America), being responsible for analyzing and solving problems related to some VTEX products, the main one was the VTEX Store Framework, where I worked on solving front-end problems of big e-commerces.',
       resumeBtn: 'Resume',
     },
     projects: {
