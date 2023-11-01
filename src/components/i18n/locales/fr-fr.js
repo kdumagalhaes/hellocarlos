@@ -1,7 +1,7 @@
 export default {
   translations: {
     hero: {
-      message: `Diplômé en publicité et analyse et développement de systèmes, travaille actuellement en tant que développeur frontend chez Growin.`,
+      message: `Diplômé en publicité et analyse et développement de systèmes, travaille actuellement en tant que développeur frontend chez Tekever.`,
       btnResume: 'Resumè',
       btnProjects: 'Mes projets',
     },
