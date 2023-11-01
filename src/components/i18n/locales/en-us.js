@@ -2,7 +2,7 @@ export default {
   translations: {
     hero: {
       message:
-        'Graduated in Advertising and Systems Analysis and Development, currently working as a Frontend Developer at Growin.',
+        'Graduated in Advertising and Systems Analysis and Development, currently working as a Frontend Developer at Tekever.',
       btnResume: 'Resume',
       btnProjects: 'My projects',
     },

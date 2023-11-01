@@ -2,7 +2,7 @@ export default {
   translations: {
     hero: {
       message:
-        'Graduado em Publicidade e propaganda e Análise e desenvolvimento de sistemas, atualmente trabalhando como Desenvolvedor Frontend, na Growin.',
+        'Graduado em Publicidade e propaganda e Análise e Desenvolvimento de Sistemas, atualmente trabalhando como Programador Frontend na Tekever.',
       btnResume: 'Currículo',
       btnProjects: 'Meus projetos',
     },

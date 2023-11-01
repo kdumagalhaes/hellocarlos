@@ -1,5 +1,6 @@
 export const defaultTheme = {
   // colors
+  'raisin-black': '#1E1E24',
   independance: '#484D6D',
   magnolia: '#EFE9F4',
   'forest-green': '#57A773',
