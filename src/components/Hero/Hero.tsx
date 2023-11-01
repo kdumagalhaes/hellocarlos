@@ -1,9 +1,13 @@
 import { Container } from './styles'
 import { Translator } from '../i18n/Translator/Translator'
+import VideoBG from '../../assets/videos/video-bg.mp4'
 
 export function Hero() {
   return (
     <Container>
+      <video className="video-bg" autoPlay muted loop>
+        <source src={VideoBG} type="video/mp4" />
+      </video>
       <h2 className="name">Carlos Pereira</h2>
       <p className="bio-description">
         <Translator path="hero.message" />

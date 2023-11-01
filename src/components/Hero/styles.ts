@@ -1,10 +1,4 @@
-import styled, { keyframes } from 'styled-components'
-
-const AnimateBg = keyframes`
-  0%{background-position:0% 50%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 50%}
-`
+import styled from 'styled-components'
 
 export const Container = styled.div`
   height: 100vh;
@@ -14,13 +8,16 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   line-height: 3rem;
-  background-size: 300% 300%;
-  background-image: linear-gradient(
-    -45deg,
-    ${(props) => props.theme.independance} 0%,
-    ${(props) => props.theme['forest-green']} 100%
-  );
-  animation: ${AnimateBg} 10s ease infinite;
+
+  .video-bg {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+  }
 
   .name {
     font-size: 4rem;

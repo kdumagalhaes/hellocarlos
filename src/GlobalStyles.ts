@@ -12,7 +12,7 @@ html {
 }
 body {
     font-family: 'Inter', sans-serif;
-    background-color: ${(props) => props.theme.independance};
+    background-color: ${(props) => props.theme['raisin-black']};
     color: ${(props) => props.theme.magnolia};
     -webkit-font-smoothing: antialiased;
 }
