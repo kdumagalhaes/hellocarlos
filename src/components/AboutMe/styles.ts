@@ -10,8 +10,9 @@ export const Container = styled.main`
 `
 
 export const Bio = styled.div`
-  border-radius: 6px;
-  padding: 1rem;
+  background-color: ${(props) => props.theme['raisin-darker']};
+  border-radius: 4px;
+  padding: 1.5rem;
   margin: 1rem auto;
   max-width: 55rem;
   display: flex;
@@ -27,13 +28,13 @@ export const Bio = styled.div`
   .profile-pic {
     max-width: 17rem;
     max-height: 26.5rem;
-    border-radius: 6px;
+    border-radius: 4px;
   }
 
   .link {
     padding: 0.9rem 1.5rem;
-    border: 2px solid ${(props) => props.theme.magnolia};
-    border-radius: 6px;
+    border: 1px solid ${(props) => props.theme.magnolia};
+    border-radius: 3px;
     background: transparent;
     color: ${(props) => props.theme.magnolia};
     transition: all 0.3s;
@@ -61,6 +62,7 @@ export const Bio = styled.div`
   @media (max-width: 480px) {
     flex-direction: column;
     box-shadow: none;
+    padding: 1rem;
 
     .profile-pic {
       max-width: 100%;
