@@ -1,7 +1,8 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  border-radius: 6px;
+  background-color: ${(props) => props.theme['raisin-darker']};
+  border-radius: 3px;
   box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
   max-width: 33rem;
   height: 100%;
@@ -16,9 +17,12 @@ export const Container = styled.div`
   }
 
   .thumbnail {
+    object-fit: cover;
+    height: 15rem;
     max-width: 33rem;
-    border-top-right-radius: 6px;
-    border-top-left-radius: 6px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    border-bottom: 5px solid ${(props) => props.theme['forest-green']};
   }
 
   .title {
@@ -44,13 +48,14 @@ export const Container = styled.div`
   .url {
     padding: 0.5rem 1rem;
     border: 1px solid ${(props) => props.theme['forest-green']};
-    border-radius: 6px;
+    border-radius: 3px;
     color: ${(props) => props.theme['forest-green']};
     text-decoration: none;
     transition: all 0.3s;
 
     &:hover {
-      background-color: ${(props) => props.theme.magnolia};
+      background-color: ${(props) => props.theme['forest-green']};
+      color: ${(props) => props.theme['raisin-darker']};
     }
   }
 
