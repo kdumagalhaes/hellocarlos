@@ -4,6 +4,7 @@ function App() {
   return (
     <>
       <Profile.Picture />
+      <Profile.Name />
       <Profile.Biography />
     </>
   )
