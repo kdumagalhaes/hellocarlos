@@ -1,5 +1,19 @@
+import styles from './ProfileBiography.module.scss'
 const ProfileBiography = () => {
-  return <h2>profile biography</h2>
+  return (
+    <p className={styles.paragraph}>
+      Graduated in Advertising and Systems Analysis and Development, currently
+      working as a Frontend Developer at
+      <a
+        className={styles.link}
+        href="https://www.tekever.com/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Tekever
+      </a>
+    </p>
+  )
 }
 
 export default ProfileBiography
