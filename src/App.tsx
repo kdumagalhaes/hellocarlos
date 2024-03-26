@@ -1,5 +1,7 @@
+import { Profile } from './components/Profile'
+
 function App() {
-  return <h2>hello</h2>
+  return <Profile.Picture />
 }
 
 export default App
