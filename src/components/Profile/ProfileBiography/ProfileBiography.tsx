@@ -3,7 +3,7 @@ const ProfileBiography = () => {
   return (
     <p className={styles.paragraph}>
       Graduated in Advertising and Systems Analysis and Development, currently
-      working as a Frontend Developer at
+      working as a <strong>Frontend Developer</strong> at
       <a
         className={styles.link}
         href="https://www.tekever.com/"

@@ -7,5 +7,5 @@ export const Profile = {
   Picture: ProfilePicture,
   Name: ProfileName,
   Biography: ProfileBiography,
-  SociaMedia: ProfileSocialMedia,
+  SocialMedia: ProfileSocialMedia,
 }

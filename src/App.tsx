@@ -6,6 +6,7 @@ function App() {
       <Profile.Picture />
       <Profile.Name />
       <Profile.Biography />
+      <Profile.SocialMedia />
     </>
   )
 }
