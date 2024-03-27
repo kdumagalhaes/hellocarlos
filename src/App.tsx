@@ -1,14 +1,7 @@
-import { Profile } from './components/Profile'
+import { Section } from './components/Section'
 
 function App() {
-  return (
-    <>
-      <Profile.Picture />
-      <Profile.Name />
-      <Profile.Biography />
-      <Profile.SocialMedia />
-    </>
-  )
+  return <Section.Profile />
 }
 
 export default App
