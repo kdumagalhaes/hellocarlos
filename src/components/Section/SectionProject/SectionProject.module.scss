@@ -1,0 +1,13 @@
+@import "../../../global/variables";
+
+.container {
+  display: grid;
+  max-width: 63rem;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 1rem;
+}
+
+.project {
+}

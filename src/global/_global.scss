@@ -39,7 +39,7 @@ footer, header, nav, section, main{
 }
 
 body{
-  background-color: $C-02;
+  background: linear-gradient(90deg, rgba(12,74,110,1) 35%, rgba(8,47,73,1) 100%);
   color: $C-01;
   line-height: 1;
   font-family: $REGULAR, sans-serif;
