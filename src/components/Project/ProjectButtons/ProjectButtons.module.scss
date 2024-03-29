@@ -1,0 +1,25 @@
+@import "../../../global/variables";
+
+.buttons-container {
+  display: flex;
+  transition: 0.3s;
+
+  a {
+    color: $C-01;
+    font-size: 0.65rem;
+    transition: 0.3s;
+    text-decoration: none;
+    border: 1px solid $C-01;
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    
+    &:first-of-type {
+      margin-right: 1rem;
+    }
+
+    &:hover {
+      color: $C-04;
+      border: 1px solid $C-04;
+    }
+  }
+}

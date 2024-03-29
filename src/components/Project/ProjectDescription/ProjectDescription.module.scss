@@ -1,0 +1,33 @@
+@import "../../../global/variables";
+
+.title,
+.description,
+.techs-container {
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 0.9rem;
+  font-family: $BOLD;
+}
+
+.description {
+  font-size: 0.8rem;
+  line-height: 1.1rem;
+}
+
+.tech {
+  padding: 2px 8px;
+  background-color: $C-04;
+  color: $C-02;
+  border-radius: 3px;
+  text-decoration: none;
+  font-family: $BOLD;
+  font-size: 0.65rem;
+
+}
+
+.techs-container {
+  display: flex;
+  column-gap: 0.5rem;
+}
