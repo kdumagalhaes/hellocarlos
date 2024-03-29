@@ -1,0 +1,23 @@
+[{
+  "id": "1234",
+  "name": "GitHub Blog",
+  "description": "An application that uses the GitHub API to fetch issues from a repository, data from my user profile and display them as a blog.",
+  "live": "#",
+  "repository": "https://github.com/kdumagalhaes/github-blog",
+  "techs": ["React", "TypeScript"]
+},
+{
+  "id": "12345",
+  "name": "Portuguese Address Finder (Crawler)",
+  "description": "A crawler to retrieve portuguese address using the postal code, made in Python.",
+  "live": "#",
+  "repository": "https://github.com/kdumagalhaes/portuguese-address-finder",
+  "techs": ["Python", "React", "TypeScript", "Node"]
+},{
+  "id": "123456",
+  "name": "Coffee Delivery Ecommerce",
+  "description": "A Coffee ecommerce with a functional checkout",
+  "live": "#",
+  "repository": "https://github.com/kdumagalhaes/coffee-delivery-ecommerce",
+  "techs": ["React", "TypeScript"]
+}]

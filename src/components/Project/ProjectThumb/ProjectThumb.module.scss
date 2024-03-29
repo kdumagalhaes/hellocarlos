@@ -1,0 +1,18 @@
+@import ".../../../../../global/variables";
+
+.container {
+  overflow: hidden;  
+  max-width: 20rem; 
+  max-height: 9rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+}
+
+.thumbnail {
+  width: 100%; 
+  transition: transform 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05, 1.05);
+  }
+}
