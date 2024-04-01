@@ -3,6 +3,10 @@
 .buttons-container {
   display: flex;
   transition: 0.3s;
+  
+  @media (max-width: 480px) {
+    justify-content: center;
+  }
 
   a {
     color: $C-01;

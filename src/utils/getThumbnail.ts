@@ -1,18 +1,22 @@
 import GitHubProjectThumb from '../images/thumbnails/github-blog.webp'
 import EcommerceProjectThumb from '../images/thumbnails/ecommerce.webp'
 import AddressFinderProjectThumb from '../images/thumbnails/address-finder.webp'
+import InteractivePricingThumb from '../images/thumbnails/interactive-pricing.webp'
+import LinkShortenerThumb from '../images/thumbnails/link-shortener.webp'
+import ProjectIDs from '../constants/ProjectsIDs'
 
 const getThumbnail = (projectId: string) => {
   switch (projectId) {
-    case '1234':
+    case ProjectIDs.GitHubProjectID:
       return GitHubProjectThumb
-      break
-    case '123456':
+    case ProjectIDs.EcommerceProjectID:
       return EcommerceProjectThumb
-      break
-    case '12345':
+    case ProjectIDs.AddressFinderProjectID:
       return AddressFinderProjectThumb
-      break
+    case ProjectIDs.InteractivePricingID:
+      return InteractivePricingThumb
+    case ProjectIDs.LinkShortenerID:
+      return LinkShortenerThumb
     default:
       break
   }
