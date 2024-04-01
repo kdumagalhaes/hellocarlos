@@ -1,23 +1,38 @@
 [{
-  "id": "1234",
+  "id": "GitHubProjectID",
   "name": "GitHub Blog",
   "description": "An application that uses the GitHub API to fetch issues from a repository, data from my user profile and display them as a blog.",
-  "live": "#",
+  "live": "https://github-blog-self.vercel.app/",
   "repository": "https://github.com/kdumagalhaes/github-blog",
   "techs": ["React", "TypeScript"]
 },
 {
-  "id": "12345",
+  "id": "AddressFinderProjectThumb",
   "name": "Portuguese Address Finder (Crawler)",
   "description": "A crawler to retrieve portuguese address using the postal code, made in Python.",
-  "live": "#",
+  "live": "https://github.com/kdumagalhaes/portuguese-address-finder",
   "repository": "https://github.com/kdumagalhaes/portuguese-address-finder",
   "techs": ["Python", "React", "TypeScript", "Node"]
 },{
-  "id": "123456",
+  "id": "EcommerceProjectID",
   "name": "Coffee Delivery Ecommerce",
-  "description": "A Coffee ecommerce with a functional checkout",
-  "live": "#",
+  "description": "A Coffee ecommerce with a functional checkout.",
+  "live": "https://coffee-delivery-ecommerce.vercel.app/",
   "repository": "https://github.com/kdumagalhaes/coffee-delivery-ecommerce",
   "techs": ["React", "TypeScript"]
+},{
+  "id": "InteractivePricingID",
+  "name": "Interactive Pricing Component",
+  "description": "An Interactive pricing component using VueJS and Atomic Design principles.",
+  "live": "https://interactive-pricing-component-vue-kdumagalhaes.vercel.app/",
+  "repository": "https://github.com/kdumagalhaes/coffee-delivery-ecommerce",
+  "techs": ["Vue", "VueX", "SCSS"]
+},
+{
+  "id": "LinkShortenerID",
+  "name": "Link Shortener Website",
+  "description": "An interactive website with a link shortener feature using the BitLy Api.",
+  "live": "https://link-shortener-vue.vercel.app/",
+  "repository": "https://github.com/kdumagalhaes/link-shortener-vue",
+  "techs": ["Vue", "SCSS", "BEM CSS"]
 }]
