@@ -35,4 +35,12 @@
   "live": "https://link-shortener-vue.vercel.app/",
   "repository": "https://github.com/kdumagalhaes/link-shortener-vue",
   "techs": ["Vue", "SCSS", "BEM CSS"]
+},
+{
+  "id": "MultiStepFormID",
+  "name": "Multi Step Form",
+  "description": "An application made in React and TypeScript that represents a form for filling in user data and selecting plans with price changes.",
+  "live": "https://multi-step-form-pi-flame.vercel.app/",
+  "repository": "https://github.com/kdumagalhaes/multi-step-form",
+  "techs": ["React", "TypeScript", "SCSS"]
 }]
