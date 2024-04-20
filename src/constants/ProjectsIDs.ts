@@ -4,6 +4,7 @@ enum ProjectIDs {
   AddressFinderProjectID = 'AddressFinderProjectThumb',
   InteractivePricingID = 'InteractivePricingID',
   LinkShortenerID = 'LinkShortenerID',
+  MultiStepFormID = 'MultiStepFormID',
 }
 
 export default ProjectIDs
